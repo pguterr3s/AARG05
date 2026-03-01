@@ -1,48 +1,48 @@
 name: aar-lab
 topology:
- kinds:
- srl:
- image: ghcr.io/nokia/srlinux
- linux:
- image: wbitt/network-multitool:extra
- ceos:
- image: ceos
- mikrotik_ros:
- image: mikrotik_ros
- nodes:
- r1:
- kind: ceos
- r2:
- kind: ceos
- r3:
- kind: srl
- startup-config: |
- system aaa authentication admin-user password admin
- r4:
- kind: mikrotik_ros
- h1:
- kind: linux
- exec:
- - udhcpc -i eth1 -b
- h2:
- kind: linux
- exec:
- - udhcpc -i eth1 -b
- h3:
- kind: linux
- exec:
- - udhcpc -i eth1 -b
- h4:
- kind: linux
- exec:
- - udhcpc -i eth1 -b
- links:
- - endpoints: ["r1:eth1", "r2:eth1"]
- - endpoints: ["r1:eth3", "r3:e1-1"]
- - endpoints: ["r1:eth4", "r4:eth3"]
- - endpoints: ["r2:eth3", "r3:e1-2"]
- - endpoints: ["r2:eth4", "r4:eth2"]
- - endpoints: ["h1:eth1", "r1:eth2"]
- - endpoints: ["h2:eth1", "r2:eth2"]
- - endpoints: ["h3:eth1", "r3:e1-3"]
- - endpoints: ["h
+  kinds:
+    srl:
+      image: ghcr.io/nokia/srlinux
+    linux:
+      image: wbitt/network-multitool:extra
+    ceos:
+      image: ceos
+    mikrotik_ros:
+      image: mikrotik_ros
+   nodes:
+     r1:
+       kind: ceos
+     r2:
+       kind: ceos
+     r3:
+       kind: srl
+       startup-config: |
+         system aaa authentication admin-user password admin
+     r4:
+       kind: mikrotik_ros
+     h1:
+       kind: linux
+       exec:
+         - udhcpc -i eth1 -b
+     h2:
+       kind: linux
+       exec:
+         - udhcpc -i eth1 -b
+     h3:
+       kind: linux
+       exec:
+         - udhcpc -i eth1 -b
+     h4:
+       kind: linux
+       exec:
+         - udhcpc -i eth1 -b
+     links:
+       - endpoints: ["r1:eth1", "r2:eth1"]
+       - endpoints: ["r1:eth3", "r3:e1-1"]
+       - endpoints: ["r1:eth4", "r4:eth3"]
+       - endpoints: ["r2:eth3", "r3:e1-2"]
+       - endpoints: ["r2:eth4", "r4:eth2"]
+       - endpoints: ["h1:eth1", "r1:eth2"]
+       - endpoints: ["h2:eth1", "r2:eth2"]
+       - endpoints: ["h3:eth1", "r3:e1-3"]
+       - endpoints: ["h4:eth1", "r4:eth1"]
