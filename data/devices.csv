@@ -1,0 +1,5 @@
+host,port,user,password,enable_password,type
+clab-aar-lab-r1,22,admin,admin,admin,arista_eos
+clab-aar-lab-r2,22,admin,admin,admin,arista_eos
+clab-aar-lab-r3,22,admin,admin,admin,nokia_srl
+clab-aar-lab-r4,22,admin,admin,admin,mikrotik_routeros

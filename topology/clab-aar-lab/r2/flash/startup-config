@@ -1,29 +1,47 @@
-// Copyright 2020 Nokia
-// Licensed under the BSD 3-Clause License.
-// SPDX-License-Identifier: BSD-3-Clause
-
-hostname r2
-username admin privilege 15 secret admin
+! Startup-config last modified at Mon Mar  2 21:39:26 2026 by root
+! device: r2 (cEOSLab, EOS-4.35.2F-46221466.4352F (engineering build))
 !
-service routing protocols model multi-agent
+no aaa root
 !
-ip route 0.0.0.0/0 172.20.20.1
-ipv6 route ::0/0 3fff:172:20:20::1
-!
-interface Management0
-
-
-
-!
-management api gnmi
-   transport grpc default
-
-!
-management api netconf
-   transport ssh default
-
+username admin privilege 15 role network-admin secret sha512 $6$bVc2WJmFCMhWdL29$V84gmVIrqWAEmcA7vxEgn/K/Dky6MYoXYhEMuJNpAXYblUEIaLkcvQYVPX751kdGCUFK2ZL1/9cuDwMhmF4kn1
 !
 management api http-commands
    no shutdown
+!
+no service interface inactive port-id allocation disabled
+!
+service routing protocols model multi-agent
+!
+hostname r2
+!
+spanning-tree mode mstp
+!
+system l1
+   unsupported speed action error
+   unsupported error-correction action error
+!
+management api gnmi
+   transport grpc default
+!
+management api netconf
+   transport ssh default
+!
+interface Ethernet1
+!
+interface Ethernet2
+!
+interface Ethernet3
+!
+interface Ethernet4
+!
+interface Management0
+   ip address 172.20.20.8/24
+   ipv6 address 3fff:172:20:20::8/64
+!
+no ip routing
+!
+ip route 0.0.0.0/0 172.20.20.1
+!
+ipv6 route ::/0 3fff:172:20:20::1
 !
 end
