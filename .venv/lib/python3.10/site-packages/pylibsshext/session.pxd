@@ -1,0 +1,33 @@
+# distutils: libraries = ssh
+#
+# This file is part of the pylibssh library
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, see file LICENSE.rst in this
+# repository.
+#
+from pylibsshext.includes cimport libssh
+
+
+cdef class Session:
+    cdef libssh.ssh_session _libssh_session
+    cdef _opts
+    cdef _policy
+    cdef _hash_py
+    cdef _fingerprint_py
+    cdef _keytype_py
+    cdef _retries
+    cdef _channel_callbacks
+
+cdef libssh.ssh_session get_libssh_session(Session session)
+cdef int get_session_retries(Session session)

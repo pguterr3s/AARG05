@@ -1,3 +1,6 @@
 *.tar.xz
 *.tar.xz
 cEOS64-lab-4.35.2F.tar.xz
+topology/clab-aar-lab/r3/config/aaamgr_local_user.json
+.config-repo-ar/
+topology/clab-aar-lab/r3/config/aaamgr_local_user.json

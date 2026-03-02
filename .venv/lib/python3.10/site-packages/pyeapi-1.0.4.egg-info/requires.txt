@@ -1,0 +1,10 @@
+netaddr
+
+[dev]
+check-manifest
+pep8
+pyflakes
+twine
+
+[test]
+coverage
