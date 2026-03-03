@@ -1,0 +1,34 @@
+Host,SwVersion
+clab-aar-lab-r1,ERROR: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: arista_eos clab-aar-lab-r1:22
+
+
+clab-aar-lab-r2,ERROR: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: arista_eos clab-aar-lab-r2:22
+
+
+clab-aar-lab-r4,version: 7.20.8 (long-term)
+clab-aar-lab-r3,ERROR: 
+
+Pattern not detected: '#' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+

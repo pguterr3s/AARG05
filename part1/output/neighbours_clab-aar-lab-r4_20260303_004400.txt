@@ -1,0 +1,6 @@
+Interface,NeighbourHostname,NeighbourInterface
+INTERFACE,,ADDRESS,,MAC-ADDRESS,
+ether3,fe80::a8c1:abff:fe47:9a0f,AA:C1:AB:47:9A:0F
+ether3,172.20.20.3,AA:C1:AB:D7:93:FC
+ether4,fe80::a8c1:abff:feb0:2428,AA:C1:AB:B0:24:28
+ether4,172.20.20.4,AA:C1:AB:58:53:4C

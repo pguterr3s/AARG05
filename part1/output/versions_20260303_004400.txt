@@ -1,0 +1,5 @@
+Host,SwVersion
+clab-aar-lab-r1,Software image version: 4.35.2F-46221466.4352F (engineering build)
+clab-aar-lab-r2,Software image version: 4.35.2F-46221466.4352F (engineering build)
+clab-aar-lab-r4,version: 7.20.8 (long-term)
+clab-aar-lab-r3,v25.10.2-527-g7cdf631f55b

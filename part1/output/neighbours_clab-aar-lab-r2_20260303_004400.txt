@@ -1,0 +1,4 @@
+Interface,NeighbourHostname,NeighbourInterface
+Et1,r1,120
+Et3,r3,120
+Et4,r4,121

@@ -1,0 +1,34 @@
+Host,SwVersion
+clab-aar-lab-r3,ERROR: 
+
+Pattern not detected: '#' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+clab-aar-lab-r1,ERROR: 
+Pattern not detected: 'r1>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+clab-aar-lab-r2,ERROR: 
+Pattern not detected: 'r2>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+clab-aar-lab-r4,version: 7.20.8 (long-term)

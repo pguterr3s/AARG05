@@ -1,9 +1,9 @@
-! Startup-config last modified at Mon Mar  2 21:39:26 2026 by root
+! Startup-config last modified at Tue Mar  3 00:17:38 2026 by root
 ! device: r2 (cEOSLab, EOS-4.35.2F-46221466.4352F (engineering build))
 !
 no aaa root
 !
-username admin privilege 15 role network-admin secret sha512 $6$bVc2WJmFCMhWdL29$V84gmVIrqWAEmcA7vxEgn/K/Dky6MYoXYhEMuJNpAXYblUEIaLkcvQYVPX751kdGCUFK2ZL1/9cuDwMhmF4kn1
+username admin privilege 15 role network-admin secret sha512 $6$X1wXQr7GIUjVN16R$EwWcCK9phgpcaHu1AJybwuVySlRPhySmzmeS9F8rHEWgyWulz8pS9qqIdYyTOjtt.rC.iuYC0LNr1TB0e3BAA/
 !
 management api http-commands
    no shutdown
@@ -35,8 +35,8 @@ interface Ethernet3
 interface Ethernet4
 !
 interface Management0
-   ip address 172.20.20.8/24
-   ipv6 address 3fff:172:20:20::8/64
+   ip address 172.20.20.3/24
+   ipv6 address 3fff:172:20:20::3/64
 !
 no ip routing
 !

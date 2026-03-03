@@ -1,0 +1,40 @@
+
+Last login: Tue Mar  3 00:35:22 2026 from 3fff:172:20:20::1
+
+r2>
+r2>terminal width 511
+Width set to 511 columns.
+r2>terminal length 0
+Pagination disabled.
+r2>
+r2>
+r2>show version | include Software
+Software image version: 4.35.2F-46221466.4352F (engineering build)
+r2>
+r2>show lldp neighbors
+Last table change time   : 0:09:39 ago
+Number of table inserts  : 5
+Number of table deletes  : 0
+Number of table drops    : 0
+Number of table age-outs : 0
+
+Port Neighbor Device ID Neighbor Port ID TTL
+---- ------------------ ---------------- ---
+Et1  r1                 Ethernet1        120
+Et3  r3                 ethernet-1/2     120
+Et4  r4                 ether3           121
+Ma0  r1                 Management0      120
+Ma0  r3                 mgmt0            120
+
+r2>
+r2>show ip interface brief
+                                                                              Address
+Interface         IP Address           Status       Protocol           MTU    Owner  
+----------------- -------------------- ------------ -------------- ---------- -------
+Management0       172.20.20.3/24       up           up                1500           
+
+r2>
+r2>show running-config
+% Invalid input (privileged mode required)
+r2>
+r2>exit

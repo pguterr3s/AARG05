@@ -1,0 +1,20 @@
+hostname {{ host }}
+!
+ip routing
+!
+interface Loopback0
+   ip address {{ loopback }}
+   ip ospf area 0.0.0.0
+!
+{% for intf, data in interfaces.items() %}
+interface {{ intf }}
+   no switchport
+   ip address {{ data.ip }}/{{ data.mask }}
+   ip ospf area {{ data.ospf_area }}
+   no shutdown
+!
+{% endfor %}
+router ospf {{ process }}
+   router-id {{ router_id }}
+   no passive-interface default
+!

@@ -1,0 +1,23 @@
+/system identity set name={{ host }}
+/interface bridge add name=lo0
+/ip address add address={{ loopback }} interface=lo0
+{% for intf, data in interfaces.items() %}
+/ip address add address={{ data.ip }}/{{ data.mask }} interface={{ intf }}
+{% endfor %}
+/routing ospf instance add name={{ process }} router-id={{ router_id }}
+/routing ospf area add name=area0 instance={{ process }} area-id=0.0.0.0
+{% set areas = [] %}
+{% for intf, data in interfaces.items() %}
+{% if data.ospf_area != "0.0.0.0" and data.ospf_area not in areas %}
+/routing ospf area add name=area_{{ data.ospf_area }} instance={{ process }} area-id={{ data.ospf_area }}
+{% set _ = areas.append(data.ospf_area) %}
+{% endif %}
+{% endfor %}
+/routing ospf interface-template add area=area0 interfaces=lo0 type=ptp
+{% for intf, data in interfaces.items() %}
+{% if data.ospf_area == "0.0.0.0" %}
+/routing ospf interface-template add area=area0 interfaces={{ intf }} type=ptp
+{% else %}
+/routing ospf interface-template add area=area_{{ data.ospf_area }} interfaces={{ intf }} type=ptp
+{% endif %}
+{% endfor %}

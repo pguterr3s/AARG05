@@ -3,39 +3,39 @@ r1:
     username: admin
     password: admin
     platform: ceos
-    hostname: 172.20.20.9
+    hostname: 172.20.20.4
 r2:
     username: admin
     password: admin
     platform: ceos
-    hostname: 172.20.20.8
+    hostname: 172.20.20.3
 h1:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.7
+    hostname: 172.20.20.2
 h2:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.4
+    hostname: 172.20.20.5
 h3:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.6
+    hostname: 172.20.20.9
 h4:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.5
+    hostname: 172.20.20.7
 r4:
     username: admin
     password: admin
     platform: mikrotik_ros
-    hostname: 172.20.20.2
+    hostname: 172.20.20.8
 r3:
     username: admin
     password: NokiaSrl1!
     platform: srl
-    hostname: 172.20.20.3
+    hostname: 172.20.20.6

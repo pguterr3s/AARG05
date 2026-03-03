@@ -12,19 +12,19 @@ all:
         ansible_password: admin
       hosts:
         clab-aar-lab-r1:
-          ansible_host: 172.20.20.9
+          ansible_host: 172.20.20.4
         clab-aar-lab-r2:
-          ansible_host: 172.20.20.8
+          ansible_host: 172.20.20.3
     linux:
       hosts:
         clab-aar-lab-h1:
-          ansible_host: 172.20.20.7
+          ansible_host: 172.20.20.2
         clab-aar-lab-h2:
-          ansible_host: 172.20.20.4
-        clab-aar-lab-h3:
-          ansible_host: 172.20.20.6
-        clab-aar-lab-h4:
           ansible_host: 172.20.20.5
+        clab-aar-lab-h3:
+          ansible_host: 172.20.20.9
+        clab-aar-lab-h4:
+          ansible_host: 172.20.20.7
     mikrotik_ros:
       vars:
         # ansible_connection: set ansible_connection variable if required
@@ -32,7 +32,7 @@ all:
         ansible_password: admin
       hosts:
         clab-aar-lab-r4:
-          ansible_host: 172.20.20.2
+          ansible_host: 172.20.20.8
     srl:
       vars:
         ansible_network_os: nokia.srlinux.srlinux
@@ -43,4 +43,4 @@ all:
         ansible_password: NokiaSrl1!
       hosts:
         clab-aar-lab-r3:
-          ansible_host: 172.20.20.3
+          ansible_host: 172.20.20.6
