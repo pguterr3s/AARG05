@@ -1,530 +1,236 @@
-2026-03-02 23:57:32.001061  psi_mem : some avg10=0.18 avg60=0.03 avg300=0.00 total=122596
-2026-03-02 23:57:32.197256  memusers : Memory Total: 5748 MB, Free: 91 MB (  1.6%), Avail: 2596 MB )(   45%)
-2026-03-02 23:57:32.197677  memusers : Memory (PSS) for ConfigAgent (pid 928): 81750 kB    27% of total PSS
-2026-03-02 23:57:32.198419  memusers : Memory (PSS) for Launcher (pid 931): 19522 kB   6.4% of total PSS
-2026-03-02 23:57:32.198474  memusers : Memory (PSS) for python3.9 (pid 911): 9446 kB   3.1% of total PSS
-2026-03-02 23:57:32.198521  memusers : Memory (PSS) for python3.9 (pid 963): 9249 kB   3.1% of total PSS
-2026-03-02 23:57:32.198570  memusers : Memory (PSS) for python3.9 (pid 525): 5741 kB   1.9% of total PSS
-2026-03-02 23:57:32.198618  memusers : Memory (PSS) for ProcLauncher-1 (pid 932): 18216 kB     6% of total PSS
-2026-03-02 23:57:32.222923  memusers : Memory (PSS) for Fru (pid 927): 18280 kB     6% of total PSS
-2026-03-02 23:57:32.223109  memusers : Memory (PSS) for StageMgr (pid 930): 17743 kB   5.9% of total PSS
-2026-03-02 23:57:32.223168  memusers : Memory (PSS) for python3.9 (pid 819): 10440 kB   3.4% of total PSS
-2026-03-02 23:57:32.223221  memusers : Memory (PSS) for python3.9 (pid 944): 11295 kB   3.7% of total PSS
-2026-03-02 23:57:32.223274  memusers : Memory (PSS) for Sysdb (pid 929): 66272 kB    22% of total PSS
-2026-03-02 23:57:38.480911  memusers : Memory Total: 5748 MB, Free: 112 MB (    2%), Avail: 2510 MB )(   44%)
-2026-03-02 23:57:38.480990  memusers : Memory (PSS) for ConfigAgent (pid 928): 96089 kB    30% of total PSS
-2026-03-02 23:57:38.481106  memusers : Memory (PSS) for Launcher (pid 931): 19110 kB   5.9% of total PSS
-2026-03-02 23:57:38.481161  memusers : Memory (PSS) for python3.9 (pid 911): 9476 kB   2.9% of total PSS
-2026-03-02 23:57:38.481213  memusers : Memory (PSS) for python3.9 (pid 963): 9147 kB   2.8% of total PSS
-2026-03-02 23:57:38.481264  memusers : Memory (PSS) for python3.9 (pid 525): 5700 kB   1.8% of total PSS
-2026-03-02 23:57:38.481311  memusers : Memory (PSS) for ProcLauncher-1 (pid 932): 17819 kB   5.5% of total PSS
-2026-03-02 23:57:38.481362  memusers : Memory (PSS) for Fru (pid 927): 17899 kB   5.5% of total PSS
-2026-03-02 23:57:38.481412  memusers : Memory (PSS) for StageMgr (pid 930): 17361 kB   5.4% of total PSS
-2026-03-02 23:57:38.481460  memusers : Memory (PSS) for python3.9 (pid 819): 10635 kB   3.3% of total PSS
-2026-03-02 23:57:38.481505  memusers : Memory (PSS) for python3.9 (pid 944): 11206 kB   3.5% of total PSS
-2026-03-02 23:57:38.481556  memusers : Memory (PSS) for Sysdb (pid 929): 74093 kB    23% of total PSS
-2026-03-02 23:58:33.724543  psi_mem : some avg10=1.75 avg60=1.46 avg300=0.47 total=1986132
-2026-03-02 23:58:34.732566  memusers : Memory Total: 5748 MB, Free: 129 MB (  2.3%), Avail: 1353 MB )(   24%)
-2026-03-02 23:58:34.732668  memusers : Memory (PSS) for ConfigAgent (pid 928): 225084 kB    41% of total PSS
-2026-03-02 23:58:34.732727  memusers : Memory (PSS) for Launcher (pid 931): 40771 kB   7.4% of total PSS
-2026-03-02 23:58:34.732789  memusers : Memory (PSS) for StageMgr (pid 930): 18036 kB   3.3% of total PSS
-2026-03-02 23:58:34.732842  memusers : Memory (PSS) for python3.9 (pid 819): 10287 kB   1.9% of total PSS
-2026-03-02 23:58:34.732896  memusers : Memory (PSS) for Sysdb (pid 1176): 9653 kB   1.7% of total PSS
-2026-03-02 23:58:34.732948  memusers : Memory (PSS) for Sysdb (pid 1131): 29573 kB   5.4% of total PSS
-2026-03-02 23:58:34.733001  memusers : Memory (PSS) for Sysdb (pid 1133): 30299 kB   5.5% of total PSS
-2026-03-02 23:58:34.733053  memusers : Memory (PSS) for Fru (pid 927): 26346 kB   4.8% of total PSS
-2026-03-02 23:58:34.733106  memusers : Memory (PSS) for ProcLauncher-1 (pid 932): 18087 kB   3.3% of total PSS
-2026-03-02 23:58:34.733158  memusers : Memory (PSS) for PerfMonitor (pid 1247): 21688 kB   3.9% of total PSS
-2026-03-02 23:58:34.778624  memusers : Memory (PSS) for Sysdb (pid 929): 56849 kB    10% of total PSS
-2026-03-02 23:59:20.304390  psi_mem : some avg10=1.30 avg60=1.51 avg300=0.64 total=2963767
-2026-03-02 23:59:21.363825  memusers : Memory Total: 5748 MB, Free: 120 MB (  2.1%), Avail: 1281 MB )(   22%)
-2026-03-02 23:59:21.363914  memusers : Memory (PSS) for ConfigAgent (pid 928): 267001 kB    45% of total PSS
-2026-03-02 23:59:21.364114  memusers : Memory (PSS) for Launcher (pid 931): 36738 kB   6.2% of total PSS
-2026-03-02 23:59:21.364208  memusers : Memory (PSS) for StageMgr (pid 930): 17839 kB     3% of total PSS
-2026-03-02 23:59:21.364267  memusers : Memory (PSS) for python3.9 (pid 819): 10261 kB   1.7% of total PSS
-2026-03-02 23:59:21.364328  memusers : Memory (PSS) for python3.9 (pid 1228): 9619 kB   1.6% of total PSS
-2026-03-02 23:59:21.364386  memusers : Memory (PSS) for python3.9 (pid 911): 28397 kB   4.8% of total PSS
-2026-03-02 23:59:21.364444  memusers : Memory (PSS) for Sysdb (pid 1131): 30849 kB   5.2% of total PSS
-2026-03-02 23:59:21.364501  memusers : Memory (PSS) for Sysdb (pid 1133): 28383 kB   4.8% of total PSS
-2026-03-02 23:59:21.364558  memusers : Memory (PSS) for ProcLauncher-1 (pid 932): 17873 kB     3% of total PSS
-2026-03-02 23:59:21.364614  memusers : Memory (PSS) for Fru (pid 927): 24984 kB   4.2% of total PSS
-2026-03-02 23:59:21.364665  memusers : Memory (PSS) for Sysdb (pid 929): 59425 kB    10% of total PSS
-2026-03-02 23:59:58.767058  psi_mem : some avg10=3.27 avg60=3.15 avg300=1.23 total=5278045
-2026-03-03 00:00:07.343895  memusers : Memory Total: 5748 MB, Free: 119 MB (  2.1%), Avail: 1100 MB )(   19%)
-2026-03-03 00:00:07.386768  memusers : Memory (PSS) for ConfigAgent (pid 928): 274206 kB    41% of total PSS
-2026-03-03 00:00:07.386961  memusers : Memory (PSS) for Sysdb (pid 929): 54702 kB   8.1% of total PSS
-2026-03-03 00:00:07.387034  memusers : Memory (PSS) for ProcLauncher-1 (pid 932): 17772 kB   2.6% of total PSS
-2026-03-03 00:00:07.387090  memusers : Memory (PSS) for StageMgr (pid 930): 17710 kB   2.6% of total PSS
-2026-03-03 00:00:07.387144  memusers : Memory (PSS) for PerfMonitor (pid 1582): 17700 kB   2.6% of total PSS
-2026-03-03 00:00:07.387197  memusers : Memory (PSS) for Sysdb (pid 1131): 30993 kB   4.6% of total PSS
-2026-03-03 00:00:07.387245  memusers : Memory (PSS) for Launcher (pid 931): 33555 kB     5% of total PSS
-2026-03-03 00:00:07.387298  memusers : Memory (PSS) for Sysdb (pid 1133): 27840 kB   4.1% of total PSS
-2026-03-03 00:00:07.387354  memusers : Memory (PSS) for Sysdb (pid 1627): 22868 kB   3.4% of total PSS
-2026-03-03 00:00:07.387407  memusers : Memory (PSS) for Fru (pid 927): 23519 kB   3.5% of total PSS
-2026-03-03 00:00:07.387457  memusers : Memory (PSS) for python3.9 (pid 911): 74564 kB    11% of total PSS
-2026-03-03 00:00:29.826638  psi_mem : some avg10=7.80 avg60=4.51 avg300=1.76 total=7303397
-2026-03-03 00:01:00.702316  psi_mem : some avg10=14.37 avg60=7.92 avg300=2.86 total=11802453
-2026-03-03 00:01:09.612095  memusers : Memory Total: 5748 MB, Free: 124 MB (  2.2%), Avail: 245 MB )(  4.3%)
-2026-03-03 00:01:09.612220  memusers : Memory (PSS) for python3.9 (pid 911): 214534 kB    28% of total PSS
-2026-03-03 00:01:09.612280  memusers : Memory (PSS) for Sysdb (pid 929): 52974 kB     7% of total PSS
-2026-03-03 00:01:09.612333  memusers : Memory (PSS) for Aaa (pid 2010): 12832 kB   1.7% of total PSS
-2026-03-03 00:01:09.612382  memusers : Memory (PSS) for Etba (pid 2008): 12515 kB   1.7% of total PSS
-2026-03-03 00:01:09.612437  memusers : Memory (PSS) for SuperServer (pid 2009): 12323 kB   1.6% of total PSS
-2026-03-03 00:01:09.612492  memusers : Memory (PSS) for Launcher (pid 931): 32125 kB   4.2% of total PSS
-2026-03-03 00:01:09.612568  memusers : Memory (PSS) for Fru (pid 927): 44487 kB   5.9% of total PSS
-2026-03-03 00:01:09.612621  memusers : Memory (PSS) for ProcLauncher-1 (pid 932): 24450 kB   3.2% of total PSS
-2026-03-03 00:01:09.612670  memusers : Memory (PSS) for StageMgr (pid 930): 17835 kB   2.4% of total PSS
-2026-03-03 00:01:09.612720  memusers : Memory (PSS) for PerfMonitor (pid 1956): 23046 kB     3% of total PSS
-2026-03-03 00:01:09.612774  memusers : Memory (PSS) for ConfigAgent (pid 928): 138949 kB    18% of total PSS
-2026-03-03 00:01:31.353260  psi_mem : some avg10=67.50 avg60=29.69 avg300=8.65 total=31498825
-2026-03-03 00:01:39.767509  memusers : Memory Total: 5748 MB, Free: 94 MB (  1.6%), Avail: 187 MB )(  3.3%)
-2026-03-03 00:01:39.770723  memusers : Memory (PSS) for ConfigAgent (pid 928): 238612 kB    27% of total PSS
-2026-03-03 00:01:39.770801  memusers : Memory (PSS) for Sysdb (pid 929): 51924 kB   5.9% of total PSS
-2026-03-03 00:01:39.770855  memusers : Memory (PSS) for Aaa (pid 2010): 19339 kB   2.2% of total PSS
-2026-03-03 00:01:39.770909  memusers : Memory (PSS) for StageMgr (pid 930): 17374 kB     2% of total PSS
-2026-03-03 00:01:39.770967  memusers : Memory (PSS) for SuperServer (pid 2009): 16738 kB   1.9% of total PSS
-2026-03-03 00:01:39.771020  memusers : Memory (PSS) for Launcher (pid 931): 31115 kB   3.5% of total PSS
-2026-03-03 00:01:39.771072  memusers : Memory (PSS) for Fru (pid 927): 43498 kB   4.9% of total PSS
-2026-03-03 00:01:39.771127  memusers : Memory (PSS) for ProcLauncher-1 (pid 932): 23035 kB   2.6% of total PSS
-2026-03-03 00:01:39.771178  memusers : Memory (PSS) for Etba (pid 2008): 21222 kB   2.4% of total PSS
-2026-03-03 00:01:39.771229  memusers : Memory (PSS) for PhyEthtool-1 (pid 2013): 21571 kB   2.4% of total PSS
-2026-03-03 00:01:39.771285  memusers : Memory (PSS) for python3.9 (pid 911): 213953 kB    24% of total PSS
-2026-03-03 00:02:01.648366  psi_mem : some avg10=76.92 avg60=47.07 avg300=15.01 total=54021432
-2026-03-03 00:02:09.699357  memusers : Memory Total: 5748 MB, Free: 73 MB (  1.3%), Avail: 61 MB )(  1.1%)
-2026-03-03 00:02:09.699698  memusers : Memory (PSS) for python3.9 (pid 911): 206572 kB    26% of total PSS
-2026-03-03 00:02:09.699757  memusers : Memory (PSS) for Sysdb (pid 929): 51990 kB   6.6% of total PSS
-2026-03-03 00:02:09.699799  memusers : Memory (PSS) for Aaa (pid 2010): 19012 kB   2.4% of total PSS
-2026-03-03 00:02:09.699846  memusers : Memory (PSS) for SuperServer (pid 2009): 18926 kB   2.4% of total PSS
-2026-03-03 00:02:09.699892  memusers : Memory (PSS) for StageMgr (pid 930): 16592 kB   2.1% of total PSS
-2026-03-03 00:02:09.699935  memusers : Memory (PSS) for Launcher (pid 931): 30837 kB   3.9% of total PSS
-2026-03-03 00:02:09.699981  memusers : Memory (PSS) for Fru (pid 927): 42777 kB   5.4% of total PSS
-2026-03-03 00:02:09.700028  memusers : Memory (PSS) for Etba (pid 2008): 25775 kB   3.3% of total PSS
-2026-03-03 00:02:09.700162  memusers : Memory (PSS) for PhyEthtool-1 (pid 2013): 19354 kB   2.4% of total PSS
-2026-03-03 00:02:09.727911  memusers : Memory (PSS) for ProcLauncher-1 (pid 932): 22640 kB   2.9% of total PSS
-2026-03-03 00:02:09.732149  memusers : Memory (PSS) for ConfigAgent (pid 928): 120052 kB    15% of total PSS
-2026-03-03 00:02:32.428290  psi_mem : some avg10=87.80 avg60=64.34 avg300=22.70 total=81647062
-2026-03-03 00:02:40.236378  memusers : Memory Total: 5748 MB, Free: 82 MB (  1.4%), Avail: 92 MB )(  1.6%)
-2026-03-03 00:02:40.237023  memusers : Memory (PSS) for ConfigAgent (pid 928): 238559 kB    26% of total PSS
-2026-03-03 00:02:40.237114  memusers : Memory (PSS) for Sysdb (pid 929): 53310 kB   5.8% of total PSS
-2026-03-03 00:02:40.237257  memusers : Memory (PSS) for PhyEthtool-1 (pid 2013): 20508 kB   2.2% of total PSS
-2026-03-03 00:02:40.237328  memusers : Memory (PSS) for Aaa (pid 2010): 19850 kB   2.2% of total PSS
-2026-03-03 00:02:40.237539  memusers : Memory (PSS) for StageMgr (pid 930): 16608 kB   1.8% of total PSS
-2026-03-03 00:02:40.237601  memusers : Memory (PSS) for Launcher (pid 931): 30849 kB   3.4% of total PSS
-2026-03-03 00:02:40.237661  memusers : Memory (PSS) for Fru (pid 927): 42847 kB   4.7% of total PSS
-2026-03-03 00:02:40.237722  memusers : Memory (PSS) for Etba (pid 2008): 28688 kB   3.1% of total PSS
-2026-03-03 00:02:40.237784  memusers : Memory (PSS) for SuperServer (pid 2009): 20639 kB   2.2% of total PSS
-2026-03-03 00:02:40.237842  memusers : Memory (PSS) for ProcLauncher-1 (pid 932): 22638 kB   2.5% of total PSS
-2026-03-03 00:02:40.237901  memusers : Memory (PSS) for python3.9 (pid 911): 206390 kB    22% of total PSS
-2026-03-03 00:03:03.478115  psi_mem : some avg10=89.73 avg60=74.82 avg300=29.40 total=109888065
-2026-03-03 00:03:11.630974  memusers : Memory Total: 5748 MB, Free: 79 MB (  1.4%), Avail: 82 MB )(  1.4%)
-2026-03-03 00:03:11.649484  memusers : Memory (PSS) for ConfigAgent (pid 928): 238553 kB    26% of total PSS
-2026-03-03 00:03:11.649566  memusers : Memory (PSS) for Sysdb (pid 929): 52433 kB   5.6% of total PSS
-2026-03-03 00:03:11.649613  memusers : Memory (PSS) for Aaa (pid 2010): 20494 kB   2.2% of total PSS
-2026-03-03 00:03:11.649653  memusers : Memory (PSS) for PhyEthtool-1 (pid 2013): 18663 kB     2% of total PSS
-2026-03-03 00:03:11.649701  memusers : Memory (PSS) for Ira (pid 2012): 17428 kB   1.9% of total PSS
-2026-03-03 00:03:11.649743  memusers : Memory (PSS) for Etba (pid 2008): 31257 kB   3.4% of total PSS
-2026-03-03 00:03:11.649808  memusers : Memory (PSS) for Fru (pid 927): 42549 kB   4.6% of total PSS
-2026-03-03 00:03:11.649854  memusers : Memory (PSS) for Launcher (pid 931): 30778 kB   3.3% of total PSS
-2026-03-03 00:03:11.649901  memusers : Memory (PSS) for SuperServer (pid 2009): 22425 kB   2.4% of total PSS
-2026-03-03 00:03:11.649998  memusers : Memory (PSS) for ProcLauncher-1 (pid 932): 22569 kB   2.4% of total PSS
-2026-03-03 00:03:11.650060  memusers : Memory (PSS) for python3.9 (pid 911): 208397 kB    22% of total PSS
-2026-03-03 00:03:34.675000  psi_mem : full avg10=53.65 avg60=42.75 avg300=17.18 total=65319635
-2026-03-03 00:03:38.547788  memusers : Memory Total: 5748 MB, Free: 72 MB (  1.3%), Avail: 64 MB )(  1.1%)
-2026-03-03 00:03:38.555088  memusers : Memory (PSS) for ConfigAgent (pid 928): 238599 kB    26% of total PSS
-2026-03-03 00:03:38.555152  memusers : Memory (PSS) for Sysdb (pid 929): 52063 kB   5.6% of total PSS
-2026-03-03 00:03:38.555687  memusers : Memory (PSS) for SuperServer (pid 2009): 21171 kB   2.3% of total PSS
-2026-03-03 00:03:38.555981  memusers : Memory (PSS) for PhyEthtool-1 (pid 2013): 18587 kB     2% of total PSS
-2026-03-03 00:03:38.556836  memusers : Memory (PSS) for Ira (pid 2012): 16601 kB   1.8% of total PSS
-2026-03-03 00:03:38.557415  memusers : Memory (PSS) for Launcher (pid 931): 31012 kB   3.3% of total PSS
-2026-03-03 00:03:38.557690  memusers : Memory (PSS) for Fru (pid 927): 42502 kB   4.5% of total PSS
-2026-03-03 00:03:38.558356  memusers : Memory (PSS) for Etba (pid 2008): 30306 kB   3.2% of total PSS
-2026-03-03 00:03:38.558487  memusers : Memory (PSS) for ProcLauncher-1 (pid 932): 22548 kB   2.4% of total PSS
-2026-03-03 00:03:38.558534  memusers : Memory (PSS) for Aaa (pid 2010): 25973 kB   2.8% of total PSS
-2026-03-03 00:03:38.558579  memusers : Memory (PSS) for python3.9 (pid 911): 206856 kB    22% of total PSS
-2026-03-03 00:04:06.275412  psi_mem : some avg10=94.31 avg60=85.98 avg300=41.61 total=167693441
-2026-03-03 00:04:51.569661  psi_mem : full avg10=67.17 avg60=56.82 avg300=26.12 total=106216219
-2026-03-03 00:05:00.626994  memusers : Memory Total: 5748 MB, Free: 73 MB (  1.3%), Avail: 49 MB )( 0.86%)
-2026-03-03 00:05:00.627861  memusers : Memory (PSS) for ConfigAgent (pid 928): 239824 kB    26% of total PSS
-2026-03-03 00:05:00.628257  memusers : Memory (PSS) for Sysdb (pid 929): 51951 kB   5.6% of total PSS
-2026-03-03 00:05:00.628369  memusers : Memory (PSS) for SuperServer (pid 2009): 20917 kB   2.2% of total PSS
-2026-03-03 00:05:00.628534  memusers : Memory (PSS) for PhyEthtool-1 (pid 2013): 18453 kB     2% of total PSS
-2026-03-03 00:05:00.628593  memusers : Memory (PSS) for StageMgr (pid 930): 16434 kB   1.8% of total PSS
-2026-03-03 00:05:00.628642  memusers : Memory (PSS) for Launcher (pid 931): 30600 kB   3.3% of total PSS
-2026-03-03 00:05:00.628690  memusers : Memory (PSS) for Fru (pid 927): 42467 kB   4.5% of total PSS
-2026-03-03 00:05:00.628733  memusers : Memory (PSS) for Etba (pid 2008): 28959 kB   3.1% of total PSS
-2026-03-03 00:05:00.628779  memusers : Memory (PSS) for ProcLauncher-1 (pid 932): 22807 kB   2.4% of total PSS
-2026-03-03 00:05:00.628824  memusers : Memory (PSS) for Aaa (pid 2010): 26861 kB   2.9% of total PSS
-2026-03-03 00:05:00.628874  memusers : Memory (PSS) for python3.9 (pid 911): 205585 kB    22% of total PSS
-2026-03-03 00:05:50.013515  psi_mem : some avg10=98.32 avg60=95.71 avg300=57.70 total=264270883
-2026-03-03 00:10:09.608557  psi_mem : some avg10=98.24 avg60=98.42 avg300=82.00 total=526419226
-2026-03-03 00:14:22.678613  psi_mem : some avg10=99.18 avg60=98.97 avg300=91.81 total=779078707
-2026-03-03 00:14:26.970787  memusers : Memory Total: 5748 MB, Free: 157 MB (  2.7%), Avail: 176 MB )(  3.1%)
-2026-03-03 00:14:26.971364  memusers : Memory (PSS) for ConfigAgent (pid 928): 193267 kB    25% of total PSS
-2026-03-03 00:14:26.971445  memusers : Memory (PSS) for Sysdb (pid 929): 35469 kB   4.6% of total PSS
-2026-03-03 00:14:26.971501  memusers : Memory (PSS) for Launcher (pid 931): 14540 kB   1.9% of total PSS
-2026-03-03 00:14:26.971592  memusers : Memory (PSS) for Ira (pid 2012): 13640 kB   1.8% of total PSS
-2026-03-03 00:14:26.971662  memusers : Memory (PSS) for Acl (pid 2015): 12177 kB   1.6% of total PSS
-2026-03-03 00:14:26.971740  memusers : Memory (PSS) for Fru (pid 927): 27908 kB   3.6% of total PSS
-2026-03-03 00:14:26.971789  memusers : Memory (PSS) for Etba (pid 2008): 31629 kB   4.1% of total PSS
-2026-03-03 00:14:26.971829  memusers : Memory (PSS) for Aaa (pid 2010): 27889 kB   3.6% of total PSS
-2026-03-03 00:14:26.971869  memusers : Memory (PSS) for PhyEthtool-1 (pid 2013): 19324 kB   2.5% of total PSS
-2026-03-03 00:14:26.971914  memusers : Memory (PSS) for SuperServer (pid 2009): 21163 kB   2.7% of total PSS
-2026-03-03 00:14:26.971960  memusers : Memory (PSS) for python3.9 (pid 911): 145172 kB    19% of total PSS
-2026-03-03 00:16:01.772939  psi_mem : some avg10=0.55 avg60=21.04 avg300=66.70 total=784231222
-2026-03-03 00:16:02.097364  memusers : Memory Total: 5748 MB, Free: 99 MB (  1.7%), Avail: 1900 MB )(   33%)
-2026-03-03 00:16:02.098746  memusers : Memory (PSS) for ConfigAgent (pid 924): 191443 kB    38% of total PSS
-2026-03-03 00:16:02.098816  memusers : Memory (PSS) for Launcher (pid 928): 40742 kB     8% of total PSS
-2026-03-03 00:16:02.098878  memusers : Memory (PSS) for python3.9 (pid 828): 10331 kB     2% of total PSS
-2026-03-03 00:16:02.099003  memusers : Memory (PSS) for Sysdb (pid 1071): 28227 kB   5.5% of total PSS
-2026-03-03 00:16:02.099062  memusers : Memory (PSS) for Sysdb (pid 1069): 27867 kB   5.5% of total PSS
-2026-03-03 00:16:02.099121  memusers : Memory (PSS) for Fru (pid 923): 26890 kB   5.3% of total PSS
-2026-03-03 00:16:02.099233  memusers : Memory (PSS) for ProcLauncher-1 (pid 929): 18351 kB   3.6% of total PSS
-2026-03-03 00:16:02.099311  memusers : Memory (PSS) for Sysdb (pid 925): 56298 kB    11% of total PSS
-2026-03-03 00:16:02.099371  memusers : Memory (PSS) for StageMgr (pid 927): 18430 kB   3.6% of total PSS
-2026-03-03 00:16:02.099427  memusers : Memory (PSS) for python3.9 (pid 914): 9426 kB   1.9% of total PSS
-2026-03-03 00:16:02.099506  memusers : Memory (PSS) for PerfMonitor (pid 1092): 17160 kB   3.4% of total PSS
-2026-03-03 00:16:59.674441  psi_mem : some avg10=3.29 avg60=9.99 avg300=55.30 total=786576776
-2026-03-03 00:17:05.476668  memusers : Memory Total: 5748 MB, Free: 125 MB (  2.2%), Avail: 754 MB )(   13%)
-2026-03-03 00:17:05.477034  memusers : Memory (PSS) for ConfigAgent (pid 924): 291117 kB    41% of total PSS
-2026-03-03 00:17:05.477095  memusers : Memory (PSS) for Fru (pid 923): 52121 kB   7.4% of total PSS
-2026-03-03 00:17:05.477146  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 13945 kB     2% of total PSS
-2026-03-03 00:17:05.477198  memusers : Memory (PSS) for Launcher (pid 928): 36294 kB   5.1% of total PSS
-2026-03-03 00:17:05.477244  memusers : Memory (PSS) for ProcLauncher-1 (pid 929): 34855 kB   4.9% of total PSS
-2026-03-03 00:17:05.477291  memusers : Memory (PSS) for StageMgr (pid 927): 19159 kB   2.7% of total PSS
-2026-03-03 00:17:05.477338  memusers : Memory (PSS) for SuperServer (pid 1552): 17195 kB   2.4% of total PSS
-2026-03-03 00:17:05.477382  memusers : Memory (PSS) for Sysdb (pid 925): 67351 kB   9.5% of total PSS
-2026-03-03 00:17:05.477462  memusers : Memory (PSS) for Etba (pid 1560): 18181 kB   2.6% of total PSS
-2026-03-03 00:17:05.477518  memusers : Memory (PSS) for Ebra (pid 1558): 11486 kB   1.6% of total PSS
-2026-03-03 00:17:05.477566  memusers : Memory (PSS) for Aaa (pid 1553): 14571 kB   2.1% of total PSS
-2026-03-03 00:17:29.989135  psi_mem : some avg10=19.42 avg60=13.76 avg300=51.81 total=792736193
-2026-03-03 00:18:00.166141  psi_mem : some avg10=73.84 avg60=31.15 avg300=52.08 total=809463798
-2026-03-03 00:18:05.436318  memusers : Memory Total: 5748 MB, Free: 81 MB (  1.4%), Avail: 67 MB )(  1.2%)
-2026-03-03 00:18:05.437155  memusers : Memory (PSS) for ConfigAgent (pid 924): 242194 kB    28% of total PSS
-2026-03-03 00:18:05.437211  memusers : Memory (PSS) for SuperServer (pid 1552): 47277 kB   5.5% of total PSS
-2026-03-03 00:18:05.437257  memusers : Memory (PSS) for StageMgr (pid 927): 17247 kB     2% of total PSS
-2026-03-03 00:18:05.437301  memusers : Memory (PSS) for Fru (pid 923): 43229 kB   5.1% of total PSS
-2026-03-03 00:18:05.437357  memusers : Memory (PSS) for Etba (pid 1560): 40830 kB   4.8% of total PSS
-2026-03-03 00:18:05.437401  memusers : Memory (PSS) for Launcher (pid 928): 32579 kB   3.8% of total PSS
-2026-03-03 00:18:05.437441  memusers : Memory (PSS) for ProcLauncher-1 (pid 929): 22835 kB   2.7% of total PSS
-2026-03-03 00:18:05.437478  memusers : Memory (PSS) for Sysdb (pid 925): 51394 kB     6% of total PSS
-2026-03-03 00:18:05.437523  memusers : Memory (PSS) for Aaa (pid 1553): 29523 kB   3.5% of total PSS
-2026-03-03 00:18:05.437651  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 15424 kB   1.8% of total PSS
-2026-03-03 00:18:05.437703  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 19719 kB   2.3% of total PSS
-2026-03-03 00:18:30.930446  psi_mem : some avg10=92.82 avg60=55.65 avg300=56.14 total=838366594
-2026-03-03 00:18:39.284898  memusers : Memory Total: 5748 MB, Free: 93 MB (  1.6%), Avail: 87 MB )(  1.5%)
-2026-03-03 00:18:39.285142  memusers : Memory (PSS) for ConfigAgent (pid 924): 242095 kB    27% of total PSS
-2026-03-03 00:18:39.285188  memusers : Memory (PSS) for SuperServer (pid 1552): 47259 kB   5.2% of total PSS
-2026-03-03 00:18:39.292594  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 17829 kB     2% of total PSS
-2026-03-03 00:18:39.292644  memusers : Memory (PSS) for Fru (pid 923): 42763 kB   4.7% of total PSS
-2026-03-03 00:18:39.292687  memusers : Memory (PSS) for Etba (pid 1560): 41884 kB   4.6% of total PSS
-2026-03-03 00:18:39.292726  memusers : Memory (PSS) for Launcher (pid 928): 33087 kB   3.6% of total PSS
-2026-03-03 00:18:39.292783  memusers : Memory (PSS) for ProcLauncher-1 (pid 929): 22962 kB   2.5% of total PSS
-2026-03-03 00:18:39.292824  memusers : Memory (PSS) for Sysdb (pid 925): 51586 kB   5.7% of total PSS
-2026-03-03 00:18:39.292865  memusers : Memory (PSS) for Aaa (pid 1553): 29512 kB   3.3% of total PSS
-2026-03-03 00:18:39.292906  memusers : Memory (PSS) for StageMgr (pid 927): 16738 kB   1.8% of total PSS
-2026-03-03 00:18:39.348527  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 19431 kB   2.1% of total PSS
-2026-03-03 00:19:01.496482  psi_mem : some avg10=96.02 avg60=71.38 avg300=60.00 total=867555806
-2026-03-03 00:19:34.796055  psi_mem : some avg10=98.69 avg60=83.17 avg300=64.26 total=900805825
-2026-03-03 00:20:05.346128  psi_mem : some avg10=98.30 avg60=89.23 avg300=67.62 total=931091224
-2026-03-03 00:20:36.578132  psi_mem : some avg10=98.21 avg60=92.86 avg300=70.79 total=961871710
-2026-03-03 00:20:43.313559  memusers : Memory Total: 5748 MB, Free: 75 MB (  1.3%), Avail: 41 MB )( 0.73%)
-2026-03-03 00:20:43.339545  memusers : Memory (PSS) for ConfigAgent (pid 924): 241842 kB    25% of total PSS
-2026-03-03 00:20:43.339902  memusers : Memory (PSS) for SuperServer (pid 1552): 47261 kB     5% of total PSS
-2026-03-03 00:20:43.339928  memusers : Memory (PSS) for StageMgr (pid 927): 16621 kB   1.7% of total PSS
-2026-03-03 00:20:43.339950  memusers : Memory (PSS) for Fru (pid 923): 42585 kB   4.5% of total PSS
-2026-03-03 00:20:43.339968  memusers : Memory (PSS) for Etba (pid 1560): 41245 kB   4.3% of total PSS
-2026-03-03 00:20:43.339986  memusers : Memory (PSS) for Launcher (pid 928): 33030 kB   3.5% of total PSS
-2026-03-03 00:20:43.340002  memusers : Memory (PSS) for ProcLauncher-1 (pid 929): 22665 kB   2.4% of total PSS
-2026-03-03 00:20:43.340018  memusers : Memory (PSS) for Sysdb (pid 925): 52136 kB   5.5% of total PSS
-2026-03-03 00:20:43.340035  memusers : Memory (PSS) for Aaa (pid 1553): 29165 kB   3.1% of total PSS
-2026-03-03 00:20:43.340054  memusers : Memory (PSS) for RouteCache (pid 1897): 16413 kB   1.7% of total PSS
-2026-03-03 00:20:43.340072  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 18415 kB   1.9% of total PSS
-2026-03-03 00:20:44.597004  memusers : Memory Total: 5748 MB, Free: 76 MB (  1.3%), Avail: 41 MB )( 0.73%)
-2026-03-03 00:20:44.597104  memusers : Memory (PSS) for ConfigAgent (pid 924): 241899 kB    25% of total PSS
-2026-03-03 00:20:44.597124  memusers : Memory (PSS) for SuperServer (pid 1552): 47248 kB     5% of total PSS
-2026-03-03 00:20:44.597144  memusers : Memory (PSS) for StageMgr (pid 927): 16621 kB   1.7% of total PSS
-2026-03-03 00:20:44.597162  memusers : Memory (PSS) for Fru (pid 923): 42585 kB   4.5% of total PSS
-2026-03-03 00:20:44.597179  memusers : Memory (PSS) for Etba (pid 1560): 40659 kB   4.3% of total PSS
-2026-03-03 00:20:44.597197  memusers : Memory (PSS) for Launcher (pid 928): 33090 kB   3.5% of total PSS
-2026-03-03 00:20:44.597216  memusers : Memory (PSS) for ProcLauncher-1 (pid 929): 22665 kB   2.4% of total PSS
-2026-03-03 00:20:44.598042  memusers : Memory (PSS) for Sysdb (pid 925): 51987 kB   5.5% of total PSS
-2026-03-03 00:20:44.598064  memusers : Memory (PSS) for Aaa (pid 1553): 29173 kB   3.1% of total PSS
-2026-03-03 00:20:44.598084  memusers : Memory (PSS) for RouteCache (pid 1897): 16413 kB   1.7% of total PSS
-2026-03-03 00:20:44.598104  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 18507 kB   1.9% of total PSS
-2026-03-03 00:21:14.365064  psi_mem : some avg10=98.19 avg60=95.24 avg300=73.96 total=998115160
-2026-03-03 00:21:45.745994  psi_mem : some avg10=97.25 avg60=96.44 avg300=76.49 total=1030128863
-2026-03-03 00:22:17.632361  psi_mem : some avg10=97.28 avg60=96.56 avg300=78.59 total=1060713020
-2026-03-03 00:22:23.140208  memusers : Memory Total: 5748 MB, Free: 87 MB (  1.5%), Avail: 47 MB )( 0.83%)
-2026-03-03 00:22:23.147667  memusers : Memory (PSS) for ConfigAgent (pid 924): 241432 kB    25% of total PSS
-2026-03-03 00:22:23.147702  memusers : Memory (PSS) for SuperServer (pid 1552): 47250 kB   4.8% of total PSS
-2026-03-03 00:22:23.147725  memusers : Memory (PSS) for CapiApp (pid 1953): 18478 kB   1.9% of total PSS
-2026-03-03 00:22:23.147745  memusers : Memory (PSS) for Fru (pid 923): 42576 kB   4.4% of total PSS
-2026-03-03 00:22:23.147764  memusers : Memory (PSS) for Etba (pid 1560): 40267 kB   4.1% of total PSS
-2026-03-03 00:22:23.147784  memusers : Memory (PSS) for Launcher (pid 928): 33404 kB   3.4% of total PSS
-2026-03-03 00:22:23.148288  memusers : Memory (PSS) for ProcLauncher-1 (pid 929): 22664 kB   2.3% of total PSS
-2026-03-03 00:22:23.148321  memusers : Memory (PSS) for Sysdb (pid 925): 52331 kB   5.4% of total PSS
-2026-03-03 00:22:23.148341  memusers : Memory (PSS) for Aaa (pid 1553): 29161 kB     3% of total PSS
-2026-03-03 00:22:23.148363  memusers : Memory (PSS) for StageMgr (pid 927): 16616 kB   1.7% of total PSS
-2026-03-03 00:22:23.148382  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 18507 kB   1.9% of total PSS
-2026-03-03 00:22:48.248816  psi_mem : some avg10=98.35 avg60=97.27 avg300=80.64 total=1091447999
-2026-03-03 00:22:50.381870  memusers : Memory Total: 5748 MB, Free: 89 MB (  1.6%), Avail: 70 MB )(  1.2%)
-2026-03-03 00:22:50.464573  memusers : Memory (PSS) for ConfigAgent (pid 924): 241967 kB    25% of total PSS
-2026-03-03 00:22:50.465061  memusers : Memory (PSS) for SuperServer (pid 1552): 47742 kB   4.9% of total PSS
-2026-03-03 00:22:50.465348  memusers : Memory (PSS) for CapiApp (pid 1953): 18470 kB   1.9% of total PSS
-2026-03-03 00:22:50.465401  memusers : Memory (PSS) for Fru (pid 923): 42573 kB   4.3% of total PSS
-2026-03-03 00:22:50.465420  memusers : Memory (PSS) for Etba (pid 1560): 40435 kB   4.1% of total PSS
-2026-03-03 00:22:50.465439  memusers : Memory (PSS) for Launcher (pid 928): 34397 kB   3.5% of total PSS
-2026-03-03 00:22:50.465457  memusers : Memory (PSS) for ProcLauncher-1 (pid 929): 22673 kB   2.3% of total PSS
-2026-03-03 00:22:50.465479  memusers : Memory (PSS) for Sysdb (pid 925): 52726 kB   5.4% of total PSS
-2026-03-03 00:22:50.846704  memusers : Memory (PSS) for Aaa (pid 1553): 29201 kB     3% of total PSS
-2026-03-03 00:22:51.029489  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 16781 kB   1.7% of total PSS
-2026-03-03 00:22:51.029519  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 18688 kB   1.9% of total PSS
-2026-03-03 00:23:24.404125  psi_mem : some avg10=98.34 avg60=97.55 avg300=82.53 total=1126197002
-2026-03-03 00:23:55.704942  psi_mem : some avg10=97.33 avg60=97.55 avg300=84.10 total=1157532920
-2026-03-03 00:23:58.530613  memusers : Memory Total: 5748 MB, Free: 79 MB (  1.4%), Avail: 57 MB )(    1%)
-2026-03-03 00:23:58.530711  memusers : Memory (PSS) for ConfigAgent (pid 924): 241647 kB    25% of total PSS
-2026-03-03 00:23:58.530731  memusers : Memory (PSS) for SuperServer (pid 1552): 47460 kB   4.8% of total PSS
-2026-03-03 00:23:58.530748  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 18510 kB   1.9% of total PSS
-2026-03-03 00:23:58.530768  memusers : Memory (PSS) for Fru (pid 923): 42577 kB   4.3% of total PSS
-2026-03-03 00:23:58.530787  memusers : Memory (PSS) for Etba (pid 1560): 41703 kB   4.2% of total PSS
-2026-03-03 00:23:58.530803  memusers : Memory (PSS) for Launcher (pid 928): 33415 kB   3.4% of total PSS
-2026-03-03 00:23:58.530819  memusers : Memory (PSS) for ProcLauncher-1 (pid 929): 22677 kB   2.3% of total PSS
-2026-03-03 00:23:58.530835  memusers : Memory (PSS) for Sysdb (pid 925): 53074 kB   5.4% of total PSS
-2026-03-03 00:23:58.530854  memusers : Memory (PSS) for Aaa (pid 1553): 29168 kB     3% of total PSS
-2026-03-03 00:23:58.530873  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 16786 kB   1.7% of total PSS
-2026-03-03 00:23:58.530892  memusers : Memory (PSS) for CapiApp (pid 1953): 18614 kB   1.9% of total PSS
-2026-03-03 00:24:38.015685  psi_mem : full avg10=75.03 avg60=75.16 avg300=62.41 total=811483221
-2026-03-03 00:24:38.076561  memusers : Memory Total: 5748 MB, Free: 289 MB (    5%), Avail: 294 MB )(  5.1%)
-2026-03-03 00:24:38.076580  memusers : Memory (PSS) for SuperServer (pid 1552): 45142 kB   7.8% of total PSS
-2026-03-03 00:24:38.076591  memusers : Memory (PSS) for Aaa (pid 1553): 27516 kB   4.7% of total PSS
-2026-03-03 00:24:38.076604  memusers : Memory (PSS) for SystemInitMonitor (pid 1954): 15677 kB   2.7% of total PSS
-2026-03-03 00:24:38.076614  memusers : Memory (PSS) for ConfigAgent (pid 924): 19813 kB   3.4% of total PSS
-2026-03-03 00:24:38.076624  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 19520 kB   3.4% of total PSS
-2026-03-03 00:24:38.076634  memusers : Memory (PSS) for CapiApp (pid 1953): 18625 kB   3.2% of total PSS
-2026-03-03 00:24:39.651253  memusers : Memory (PSS) for RouteCache (pid 1897): 16837 kB   2.9% of total PSS
-2026-03-03 00:24:39.651287  memusers : Memory (PSS) for Etba (pid 1560): 40712 kB     7% of total PSS
-2026-03-03 00:24:39.651304  memusers : Memory (PSS) for Sysdb (pid 925): 18342 kB   3.2% of total PSS
-2026-03-03 00:24:39.651319  memusers : Memory (PSS) for OpenConfig (pid 1956): 14579 kB   2.5% of total PSS
-2026-03-03 00:24:39.651334  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 16704 kB   2.9% of total PSS
-2026-03-03 00:25:08.309816  psi_mem : some avg10=96.63 avg60=95.81 avg300=86.57 total=1227407033
-2026-03-03 00:25:09.171181  memusers : Memory Total: 5748 MB, Free: 79 MB (  1.4%), Avail: 43 MB )( 0.77%)
-2026-03-03 00:25:10.247956  memusers : Memory (PSS) for SuperServer (pid 1552): 46272 kB   7.4% of total PSS
-2026-03-03 00:25:11.042348  memusers : Memory (PSS) for Aaa (pid 1553): 27542 kB   4.4% of total PSS
-2026-03-03 00:25:11.567450  memusers : Memory (PSS) for RouteCache (pid 1897): 16408 kB   2.6% of total PSS
-2026-03-03 00:25:15.563127  memusers : Memory (PSS) for Sysdb (pid 925): 21694 kB   3.5% of total PSS
-2026-03-03 00:25:15.601536  memusers : Memory (PSS) for ConfigAgent (pid 924): 18709 kB     3% of total PSS
-2026-03-03 00:25:15.625741  memusers : Memory (PSS) for CapiApp (pid 1953): 18634 kB     3% of total PSS
-2026-03-03 00:25:15.626649  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 18454 kB     3% of total PSS
-2026-03-03 00:25:15.626730  memusers : Memory (PSS) for Etba (pid 1560): 41705 kB   6.7% of total PSS
-2026-03-03 00:25:15.626756  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 18467 kB     3% of total PSS
-2026-03-03 00:25:15.626779  memusers : Memory (PSS) for SystemInitMonitor (pid 1954): 15683 kB   2.5% of total PSS
-2026-03-03 00:25:15.626800  memusers : Memory (PSS) for OpenConfig (pid 1956): 16875 kB   2.7% of total PSS
-2026-03-03 00:25:41.273854  psi_mem : full avg10=68.01 avg60=70.58 avg300=64.07 total=866473284
-2026-03-03 00:25:41.875262  memusers : Memory Total: 5748 MB, Free: 81 MB (  1.4%), Avail: 97 MB )(  1.7%)
-2026-03-03 00:25:41.875309  memusers : Memory (PSS) for SuperServer (pid 1552): 46271 kB   7.3% of total PSS
-2026-03-03 00:25:41.875327  memusers : Memory (PSS) for Aaa (pid 1553): 27695 kB   4.4% of total PSS
-2026-03-03 00:25:41.875366  memusers : Memory (PSS) for RouteCache (pid 1897): 16419 kB   2.6% of total PSS
-2026-03-03 00:25:41.875383  memusers : Memory (PSS) for Sysdb (pid 925): 22441 kB   3.5% of total PSS
-2026-03-03 00:25:41.875399  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 19128 kB     3% of total PSS
-2026-03-03 00:25:41.875416  memusers : Memory (PSS) for CapiApp (pid 1953): 18980 kB     3% of total PSS
-2026-03-03 00:25:41.875433  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 18464 kB   2.9% of total PSS
-2026-03-03 00:25:41.875449  memusers : Memory (PSS) for Etba (pid 1560): 43257 kB   6.8% of total PSS
-2026-03-03 00:25:41.875465  memusers : Memory (PSS) for ConfigAgent (pid 924): 18874 kB     3% of total PSS
-2026-03-03 00:25:41.875482  memusers : Memory (PSS) for SystemInitMonitor (pid 1954): 15752 kB   2.5% of total PSS
-2026-03-03 00:25:41.875499  memusers : Memory (PSS) for OpenConfig (pid 1956): 17204 kB   2.7% of total PSS
-2026-03-03 00:26:13.116349  psi_mem : full avg10=68.58 avg60=70.25 avg300=64.43 total=881013058
-2026-03-03 00:26:14.171288  memusers : Memory Total: 5748 MB, Free: 84 MB (  1.5%), Avail: 154 MB )(  2.7%)
-2026-03-03 00:26:14.173085  memusers : Memory (PSS) for SuperServer (pid 1552): 46530 kB   7.1% of total PSS
-2026-03-03 00:26:14.173115  memusers : Memory (PSS) for Aaa (pid 1553): 27531 kB   4.2% of total PSS
-2026-03-03 00:26:14.173137  memusers : Memory (PSS) for RouteCache (pid 1897): 16431 kB   2.5% of total PSS
-2026-03-03 00:26:14.173159  memusers : Memory (PSS) for Sysdb (pid 925): 23405 kB   3.6% of total PSS
-2026-03-03 00:26:14.173179  memusers : Memory (PSS) for ConfigAgent (pid 924): 20005 kB     3% of total PSS
-2026-03-03 00:26:14.173199  memusers : Memory (PSS) for OpenConfig (pid 1956): 19517 kB     3% of total PSS
-2026-03-03 00:26:14.174906  memusers : Memory (PSS) for CapiApp (pid 1953): 18630 kB   2.8% of total PSS
-2026-03-03 00:26:14.174929  memusers : Memory (PSS) for Etba (pid 1560): 40872 kB   6.2% of total PSS
-2026-03-03 00:26:14.174951  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 18768 kB   2.9% of total PSS
-2026-03-03 00:26:14.174973  memusers : Memory (PSS) for SystemInitMonitor (pid 1954): 16346 kB   2.5% of total PSS
-2026-03-03 00:26:14.174992  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 18454 kB   2.8% of total PSS
-2026-03-03 00:26:15.703737  memusers : Memory Total: 5748 MB, Free: 81 MB (  1.4%), Avail: 128 MB )(  2.2%)
-2026-03-03 00:26:15.703840  memusers : Memory (PSS) for SuperServer (pid 1552): 46469 kB     7% of total PSS
-2026-03-03 00:26:15.703869  memusers : Memory (PSS) for Aaa (pid 1553): 27559 kB   4.2% of total PSS
-2026-03-03 00:26:15.703899  memusers : Memory (PSS) for LogArchiverAgent (pid 2774): 16666 kB   2.5% of total PSS
-2026-03-03 00:26:15.703921  memusers : Memory (PSS) for Sysdb (pid 925): 25464 kB   3.8% of total PSS
-2026-03-03 00:26:15.703940  memusers : Memory (PSS) for OpenConfig (pid 1956): 20269 kB   3.1% of total PSS
-2026-03-03 00:26:15.703961  memusers : Memory (PSS) for ConfigAgent (pid 924): 19779 kB     3% of total PSS
-2026-03-03 00:26:15.703981  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 18619 kB   2.8% of total PSS
-2026-03-03 00:26:15.704001  memusers : Memory (PSS) for Etba (pid 1560): 40791 kB   6.2% of total PSS
-2026-03-03 00:26:15.704021  memusers : Memory (PSS) for CapiApp (pid 1953): 18641 kB   2.8% of total PSS
-2026-03-03 00:26:15.704042  memusers : Memory (PSS) for RouteCache (pid 1897): 16418 kB   2.5% of total PSS
-2026-03-03 00:26:15.704061  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 18445 kB   2.8% of total PSS
-2026-03-03 00:26:17.806409  memusers : Memory Total: 5748 MB, Free: 99 MB (  1.7%), Avail: 122 MB )(  2.1%)
-2026-03-03 00:26:17.807620  memusers : Memory (PSS) for SuperServer (pid 1552): 46487 kB   6.9% of total PSS
-2026-03-03 00:26:17.807645  memusers : Memory (PSS) for Aaa (pid 1553): 27544 kB   4.1% of total PSS
-2026-03-03 00:26:17.807663  memusers : Memory (PSS) for LogArchiverAgent (pid 2774): 17264 kB   2.6% of total PSS
-2026-03-03 00:26:17.807683  memusers : Memory (PSS) for Sysdb (pid 925): 23739 kB   3.5% of total PSS
-2026-03-03 00:26:17.807702  memusers : Memory (PSS) for ConfigAgent (pid 924): 22388 kB   3.3% of total PSS
-2026-03-03 00:26:17.807888  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 19947 kB     3% of total PSS
-2026-03-03 00:26:17.807907  memusers : Memory (PSS) for CapiApp (pid 1953): 18924 kB   2.8% of total PSS
-2026-03-03 00:26:17.807926  memusers : Memory (PSS) for Etba (pid 1560): 41141 kB   6.1% of total PSS
-2026-03-03 00:26:17.807972  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 19016 kB   2.8% of total PSS
-2026-03-03 00:26:17.807991  memusers : Memory (PSS) for RouteCache (pid 1897): 16445 kB   2.4% of total PSS
-2026-03-03 00:26:17.808009  memusers : Memory (PSS) for OpenConfig (pid 1956): 18664 kB   2.8% of total PSS
-2026-03-03 00:26:52.625636  psi_mem : some avg10=96.79 avg60=95.22 avg300=89.27 total=1327774250
-2026-03-03 00:27:23.126902  psi_mem : some avg10=67.16 avg60=90.16 avg300=88.87 total=1353810637
-2026-03-03 00:28:01.012618  psi_mem : some avg10=3.36 avg60=50.72 avg300=78.88 total=1356705108
-2026-03-03 00:28:01.077758  memusers : Memory Total: 5748 MB, Free: 100 MB (  1.8%), Avail: 120 MB )(  2.1%)
-2026-03-03 00:28:01.077777  memusers : Memory (PSS) for OpenConfig (pid 1956): 181128 kB    19% of total PSS
-2026-03-03 00:28:01.077791  memusers : Memory (PSS) for Sysdb (pid 925): 47956 kB   5.1% of total PSS
-2026-03-03 00:28:01.077805  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 22272 kB   2.4% of total PSS
-2026-03-03 00:28:01.077818  memusers : Memory (PSS) for ConfigAgent (pid 924): 43674 kB   4.6% of total PSS
-2026-03-03 00:28:01.077831  memusers : Memory (PSS) for Etba (pid 1560): 41673 kB   4.4% of total PSS
-2026-03-03 00:28:01.077846  memusers : Memory (PSS) for AirStream (pid 1935): 41334 kB   4.4% of total PSS
-2026-03-03 00:28:01.077855  memusers : Memory (PSS) for IpRib (pid 2772): 23780 kB   2.5% of total PSS
-2026-03-03 00:28:01.077864  memusers : Memory (PSS) for SuperServer (pid 1552): 48093 kB   5.1% of total PSS
-2026-03-03 00:28:01.077873  memusers : Memory (PSS) for Aaa (pid 1553): 28166 kB     3% of total PSS
-2026-03-03 00:28:01.077881  memusers : Memory (PSS) for CapiApp (pid 1953): 18855 kB     2% of total PSS
-2026-03-03 00:28:01.077890  memusers : Memory (PSS) for SystemInitMonitor (pid 1954): 22954 kB   2.4% of total PSS
-2026-03-03 00:28:31.509636  psi_mem : some avg10=13.89 avg60=33.95 avg300=71.86 total=1359184144
-2026-03-03 00:28:37.527199  memusers : Memory Total: 5748 MB, Free: 108 MB (  1.9%), Avail: 124 MB )(  2.2%)
-2026-03-03 00:28:37.527223  memusers : Memory (PSS) for OpenConfig (pid 1956): 177192 kB    18% of total PSS
-2026-03-03 00:28:37.527233  memusers : Memory (PSS) for SuperServer (pid 1552): 48041 kB   4.9% of total PSS
-2026-03-03 00:28:37.527244  memusers : Memory (PSS) for CapiApp (pid 1953): 18150 kB   1.9% of total PSS
-2026-03-03 00:28:37.527254  memusers : Memory (PSS) for Sysdb (pid 925): 47985 kB   4.9% of total PSS
-2026-03-03 00:28:37.527268  memusers : Memory (PSS) for Etba (pid 1560): 45162 kB   4.6% of total PSS
-2026-03-03 00:28:37.527279  memusers : Memory (PSS) for Aaa (pid 1553): 28032 kB   2.9% of total PSS
-2026-03-03 00:28:37.527289  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 22273 kB   2.3% of total PSS
-2026-03-03 00:28:37.527299  memusers : Memory (PSS) for ConfigAgent (pid 924): 123737 kB    13% of total PSS
-2026-03-03 00:28:37.527308  memusers : Memory (PSS) for IpRib (pid 2772): 23771 kB   2.4% of total PSS
-2026-03-03 00:28:37.527317  memusers : Memory (PSS) for Dot1x (pid 1912): 17557 kB   1.8% of total PSS
-2026-03-03 00:28:37.527327  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 18661 kB   1.9% of total PSS
-2026-03-03 00:29:02.008937  psi_mem : some avg10=33.69 avg60=33.64 avg300=68.05 total=1369347963
-2026-03-03 00:29:06.425331  memusers : Memory Total: 5748 MB, Free: 98 MB (  1.7%), Avail: 107 MB )(  1.9%)
-2026-03-03 00:29:06.425358  memusers : Memory (PSS) for OpenConfig (pid 1956): 181710 kB    19% of total PSS
-2026-03-03 00:29:06.425368  memusers : Memory (PSS) for SuperServer (pid 1552): 47978 kB   4.9% of total PSS
-2026-03-03 00:29:06.425378  memusers : Memory (PSS) for CapiApp (pid 1953): 18145 kB   1.8% of total PSS
-2026-03-03 00:29:06.425387  memusers : Memory (PSS) for Sysdb (pid 925): 47827 kB   4.9% of total PSS
-2026-03-03 00:29:06.425395  memusers : Memory (PSS) for Etba (pid 1560): 41788 kB   4.3% of total PSS
-2026-03-03 00:29:06.425404  memusers : Memory (PSS) for Aaa (pid 1553): 28027 kB   2.9% of total PSS
-2026-03-03 00:29:06.425413  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 22104 kB   2.3% of total PSS
-2026-03-03 00:29:06.425425  memusers : Memory (PSS) for ConfigAgent (pid 924): 132529 kB    14% of total PSS
-2026-03-03 00:29:06.425440  memusers : Memory (PSS) for IpRib (pid 2772): 23341 kB   2.4% of total PSS
-2026-03-03 00:29:06.425451  memusers : Memory (PSS) for Dot1x (pid 1912): 17426 kB   1.8% of total PSS
-2026-03-03 00:29:06.425460  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 18985 kB   1.9% of total PSS
-2026-03-03 00:29:32.507706  psi_mem : some avg10=40.12 avg60=36.03 avg300=65.27 total=1381602638
-2026-03-03 00:29:37.545170  memusers : Memory Total: 5748 MB, Free: 99 MB (  1.7%), Avail: 104 MB )(  1.8%)
-2026-03-03 00:29:37.545194  memusers : Memory (PSS) for OpenConfig (pid 1956): 186415 kB    19% of total PSS
-2026-03-03 00:29:37.545205  memusers : Memory (PSS) for SuperServer (pid 1552): 48036 kB   4.9% of total PSS
-2026-03-03 00:29:37.545216  memusers : Memory (PSS) for CapiApp (pid 1953): 18166 kB   1.8% of total PSS
-2026-03-03 00:29:37.545226  memusers : Memory (PSS) for Sysdb (pid 925): 47768 kB   4.9% of total PSS
-2026-03-03 00:29:37.545235  memusers : Memory (PSS) for Etba (pid 1560): 42076 kB   4.3% of total PSS
-2026-03-03 00:29:37.545250  memusers : Memory (PSS) for Aaa (pid 1553): 28024 kB   2.9% of total PSS
-2026-03-03 00:29:37.545261  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 22108 kB   2.3% of total PSS
-2026-03-03 00:29:37.545271  memusers : Memory (PSS) for ConfigAgent (pid 924): 127473 kB    13% of total PSS
-2026-03-03 00:29:37.545281  memusers : Memory (PSS) for IpRib (pid 2772): 23353 kB   2.4% of total PSS
-2026-03-03 00:29:37.545294  memusers : Memory (PSS) for Dot1x (pid 1912): 17431 kB   1.8% of total PSS
-2026-03-03 00:29:37.545304  memusers : Memory (PSS) for PhyEthtool-1 (pid 1561): 19099 kB   1.9% of total PSS
-2026-03-03 00:30:20.214010  psi_mem : some avg10=96.82 avg60=63.46 avg300=67.86 total=1421457309
-2026-03-03 00:30:20.874443  memusers : Memory Total: 5748 MB, Free: 299 MB (  5.2%), Avail: 338 MB )(  5.9%)
-2026-03-03 00:30:20.876251  memusers : Memory (PSS) for OpenConfig (pid 1956): 189488 kB    20% of total PSS
-2026-03-03 00:30:20.876315  memusers : Memory (PSS) for Sysdb (pid 925): 48119 kB     5% of total PSS
-2026-03-03 00:30:20.876340  memusers : Memory (PSS) for Dot1x (pid 1912): 17521 kB   1.8% of total PSS
-2026-03-03 00:30:20.876362  memusers : Memory (PSS) for SuperServer (pid 1552): 46315 kB   4.8% of total PSS
-2026-03-03 00:30:20.876383  memusers : Memory (PSS) for Etba (pid 1560): 37198 kB   3.8% of total PSS
-2026-03-03 00:30:20.876404  memusers : Memory (PSS) for Aaa (pid 1553): 25070 kB   2.6% of total PSS
-2026-03-03 00:30:20.876426  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 22168 kB   2.3% of total PSS
-2026-03-03 00:30:20.876447  memusers : Memory (PSS) for ConfigAgent (pid 924): 116309 kB    12% of total PSS
-2026-03-03 00:30:20.876466  memusers : Memory (PSS) for IpRib (pid 2772): 23375 kB   2.4% of total PSS
-2026-03-03 00:30:20.876485  memusers : Memory (PSS) for RouteCache (pid 1897): 16631 kB   1.7% of total PSS
-2026-03-03 00:30:20.876503  memusers : Memory (PSS) for CapiApp (pid 1953): 18066 kB   1.9% of total PSS
-2026-03-03 00:30:52.300314  psi_mem : some avg10=71.92 avg60=57.94 avg300=65.64 total=1435533430
-2026-03-03 00:31:00.983545  memusers : Memory Total: 5748 MB, Free: 80 MB (  1.4%), Avail: 60 MB )(    1%)
-2026-03-03 00:31:00.993304  memusers : Memory (PSS) for ConfigAgent (pid 924): 251484 kB    21% of total PSS
-2026-03-03 00:31:00.993388  memusers : Memory (PSS) for Sysdb (pid 925): 59298 kB     5% of total PSS
-2026-03-03 00:31:00.993423  memusers : Memory (PSS) for Launcher (pid 928): 20339 kB   1.7% of total PSS
-2026-03-03 00:31:00.993443  memusers : Memory (PSS) for SuperServer (pid 1552): 47331 kB     4% of total PSS
-2026-03-03 00:31:00.993462  memusers : Memory (PSS) for Etba (pid 1560): 42262 kB   3.6% of total PSS
-2026-03-03 00:31:00.993481  memusers : Memory (PSS) for Aaa (pid 1553): 27733 kB   2.4% of total PSS
-2026-03-03 00:31:00.993499  memusers : Memory (PSS) for IpRib (pid 2772): 23474 kB     2% of total PSS
-2026-03-03 00:31:00.993519  memusers : Memory (PSS) for OpenConfig (pid 1956): 186034 kB    16% of total PSS
-2026-03-03 00:31:00.993541  memusers : Memory (PSS) for Fru (pid 923): 24903 kB   2.1% of total PSS
-2026-03-03 00:31:00.993561  memusers : Memory (PSS) for CapiApp (pid 1953): 18163 kB   1.5% of total PSS
-2026-03-03 00:31:00.993581  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 22305 kB   1.9% of total PSS
-2026-03-03 00:31:24.238969  psi_mem : some avg10=90.89 avg60=72.22 avg300=68.47 total=1465938591
-2026-03-03 00:42:59.259207  psi_mem : some avg10=0.09 avg60=0.11 avg300=6.43 total=1467871959
-2026-03-03 00:42:59.314226  memusers : Memory Total: 5748 MB, Free: 131 MB (  2.3%), Avail: 184 MB )(  3.2%)
-2026-03-03 00:42:59.314327  memusers : Memory (PSS) for ConfigAgent (pid 924): 244829 kB    24% of total PSS
-2026-03-03 00:42:59.314339  memusers : Memory (PSS) for Sysdb (pid 925): 54794 kB   5.3% of total PSS
-2026-03-03 00:42:59.314368  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 19866 kB   1.9% of total PSS
-2026-03-03 00:42:59.314378  memusers : Memory (PSS) for SuperServer (pid 1552): 41214 kB     4% of total PSS
-2026-03-03 00:42:59.314387  memusers : Memory (PSS) for Etba (pid 1560): 27901 kB   2.7% of total PSS
-2026-03-03 00:42:59.314396  memusers : Memory (PSS) for Fru (pid 923): 24660 kB   2.4% of total PSS
-2026-03-03 00:42:59.314405  memusers : Memory (PSS) for Launcher (pid 928): 20117 kB   1.9% of total PSS
-2026-03-03 00:42:59.314414  memusers : Memory (PSS) for OpenConfig (pid 1956): 169492 kB    16% of total PSS
-2026-03-03 00:42:59.314423  memusers : Memory (PSS) for IpRib (pid 2772): 23338 kB   2.2% of total PSS
-2026-03-03 00:42:59.314432  memusers : Memory (PSS) for CapiApp (pid 1953): 17274 kB   1.7% of total PSS
-2026-03-03 00:42:59.314441  memusers : Memory (PSS) for Aaa (pid 1553): 19917 kB   1.9% of total PSS
-2026-03-03 00:44:01.678998  psi_mem : some avg10=0.86 avg60=0.44 avg300=5.31 total=1468495967
-2026-03-03 00:44:01.768158  memusers : Memory Total: 5748 MB, Free: 102 MB (  1.8%), Avail: 343 MB )(    6%)
-2026-03-03 00:44:01.768204  memusers : Memory (PSS) for ConfigAgent (pid 924): 245751 kB    23% of total PSS
-2026-03-03 00:44:01.768235  memusers : Memory (PSS) for Sysdb (pid 925): 54996 kB   5.1% of total PSS
-2026-03-03 00:44:01.768266  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 19862 kB   1.8% of total PSS
-2026-03-03 00:44:01.768283  memusers : Memory (PSS) for SuperServer (pid 1552): 41314 kB   3.8% of total PSS
-2026-03-03 00:44:01.768300  memusers : Memory (PSS) for Etba (pid 1560): 28205 kB   2.6% of total PSS
-2026-03-03 00:44:01.768318  memusers : Memory (PSS) for Fru (pid 923): 24654 kB   2.3% of total PSS
-2026-03-03 00:44:01.768336  memusers : Memory (PSS) for Aaa (pid 1553): 20545 kB   1.9% of total PSS
-2026-03-03 00:44:01.768353  memusers : Memory (PSS) for OpenConfig (pid 1956): 172770 kB    16% of total PSS
-2026-03-03 00:44:01.768370  memusers : Memory (PSS) for IpRib (pid 2772): 23338 kB   2.2% of total PSS
-2026-03-03 00:44:01.768387  memusers : Memory (PSS) for CapiApp (pid 1953): 17174 kB   1.6% of total PSS
-2026-03-03 00:44:01.768405  memusers : Memory (PSS) for Launcher (pid 928): 20117 kB   1.9% of total PSS
-2026-03-03 02:47:23.071361  psi_mem : some avg10=1.65 avg60=0.32 avg300=2.00 total=1469201624
-2026-03-03 02:47:23.942095  memusers : Memory Total: 5748 MB, Free: 102 MB (  1.8%), Avail: 433 MB )(  7.5%)
-2026-03-03 02:47:23.942120  memusers : Memory (PSS) for ConfigAgent (pid 924): 248922 kB    23% of total PSS
-2026-03-03 02:47:23.942133  memusers : Memory (PSS) for Sysdb (pid 925): 55155 kB   5.2% of total PSS
-2026-03-03 02:47:23.942145  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 19900 kB   1.9% of total PSS
-2026-03-03 02:47:23.942157  memusers : Memory (PSS) for SuperServer (pid 1552): 41636 kB   3.9% of total PSS
-2026-03-03 02:47:23.942167  memusers : Memory (PSS) for Etba (pid 1560): 28874 kB   2.7% of total PSS
-2026-03-03 02:47:23.942178  memusers : Memory (PSS) for IpRib (pid 2772): 25028 kB   2.4% of total PSS
-2026-03-03 02:47:23.942190  memusers : Memory (PSS) for Aaa (pid 1553): 20240 kB   1.9% of total PSS
-2026-03-03 02:47:23.942201  memusers : Memory (PSS) for OpenConfig (pid 1956): 173943 kB    16% of total PSS
-2026-03-03 02:47:23.942213  memusers : Memory (PSS) for Fru (pid 923): 24718 kB   2.3% of total PSS
-2026-03-03 02:47:23.942224  memusers : Memory (PSS) for CapiApp (pid 1953): 17169 kB   1.6% of total PSS
-2026-03-03 02:47:23.942236  memusers : Memory (PSS) for Launcher (pid 928): 20117 kB   1.9% of total PSS
-2026-03-03 05:55:47.249792  psi_mem : some avg10=5.03 avg60=1.32 avg300=2.16 total=1470144936
-2026-03-03 05:55:47.715120  memusers : Memory Total: 5748 MB, Free: 74 MB (  1.3%), Avail: 299 MB )(  5.2%)
-2026-03-03 05:55:47.715159  memusers : Memory (PSS) for ConfigAgent (pid 924): 248566 kB    24% of total PSS
-2026-03-03 05:55:47.715178  memusers : Memory (PSS) for Sysdb (pid 925): 54984 kB   5.2% of total PSS
-2026-03-03 05:55:47.715197  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 19881 kB   1.9% of total PSS
-2026-03-03 05:55:47.715215  memusers : Memory (PSS) for SuperServer (pid 1552): 41633 kB   3.9% of total PSS
-2026-03-03 05:55:47.715244  memusers : Memory (PSS) for Etba (pid 1560): 28484 kB   2.7% of total PSS
-2026-03-03 05:55:47.715263  memusers : Memory (PSS) for IpRib (pid 2772): 24959 kB   2.4% of total PSS
-2026-03-03 05:55:47.715281  memusers : Memory (PSS) for Aaa (pid 1553): 20241 kB   1.9% of total PSS
-2026-03-03 05:55:47.715298  memusers : Memory (PSS) for OpenConfig (pid 1956): 171818 kB    16% of total PSS
-2026-03-03 05:55:47.715315  memusers : Memory (PSS) for Fru (pid 923): 24717 kB   2.3% of total PSS
-2026-03-03 05:55:47.715333  memusers : Memory (PSS) for CapiApp (pid 1953): 17162 kB   1.6% of total PSS
-2026-03-03 05:55:47.715351  memusers : Memory (PSS) for Launcher (pid 928): 20111 kB   1.9% of total PSS
-2026-03-03 11:43:28.704484  psi_mem : some avg10=5.03 avg60=1.32 avg300=2.16 total=1470350274
-2026-03-03 11:43:29.447686  memusers : Memory Total: 5748 MB, Free: 286 MB (    5%), Avail: 460 MB )(    8%)
-2026-03-03 11:43:29.447720  memusers : Memory (PSS) for ConfigAgent (pid 924): 247654 kB    24% of total PSS
-2026-03-03 11:43:29.447761  memusers : Memory (PSS) for Sysdb (pid 925): 54913 kB   5.2% of total PSS
-2026-03-03 11:43:29.447782  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 19881 kB   1.9% of total PSS
-2026-03-03 11:43:29.447801  memusers : Memory (PSS) for SuperServer (pid 1552): 41535 kB   3.9% of total PSS
-2026-03-03 11:43:29.447821  memusers : Memory (PSS) for Etba (pid 1560): 28484 kB   2.7% of total PSS
-2026-03-03 11:43:29.459021  memusers : Memory (PSS) for IpRib (pid 2772): 24959 kB   2.4% of total PSS
-2026-03-03 11:43:29.459046  memusers : Memory (PSS) for Aaa (pid 1553): 20241 kB   1.9% of total PSS
-2026-03-03 11:43:29.459066  memusers : Memory (PSS) for OpenConfig (pid 1956): 171818 kB    16% of total PSS
-2026-03-03 11:43:29.459082  memusers : Memory (PSS) for Fru (pid 923): 24717 kB   2.3% of total PSS
-2026-03-03 11:43:29.459099  memusers : Memory (PSS) for CapiApp (pid 1953): 17162 kB   1.6% of total PSS
-2026-03-03 11:43:29.459120  memusers : Memory (PSS) for Launcher (pid 928): 20111 kB   1.9% of total PSS
-2026-03-03 12:37:02.074781  psi_mem : some avg10=5.20 avg60=1.78 avg300=2.25 total=1470594618
-2026-03-03 12:37:02.607285  memusers : Memory Total: 5748 MB, Free: 74 MB (  1.3%), Avail: 211 MB )(  3.7%)
-2026-03-03 12:37:02.607349  memusers : Memory (PSS) for ConfigAgent (pid 924): 247371 kB    24% of total PSS
-2026-03-03 12:37:02.607371  memusers : Memory (PSS) for Sysdb (pid 925): 54888 kB   5.2% of total PSS
-2026-03-03 12:37:02.607405  memusers : Memory (PSS) for IgmpSnooping (pid 1894): 19880 kB   1.9% of total PSS
-2026-03-03 12:37:02.607428  memusers : Memory (PSS) for SuperServer (pid 1552): 41438 kB   3.9% of total PSS
-2026-03-03 12:37:02.607447  memusers : Memory (PSS) for Etba (pid 1560): 28399 kB   2.7% of total PSS
-2026-03-03 12:37:02.607466  memusers : Memory (PSS) for Fru (pid 923): 24717 kB   2.4% of total PSS
-2026-03-03 12:37:02.607485  memusers : Memory (PSS) for Aaa (pid 1553): 20227 kB   1.9% of total PSS
-2026-03-03 12:37:02.616968  memusers : Memory (PSS) for OpenConfig (pid 1956): 171374 kB    16% of total PSS
-2026-03-03 12:37:02.617046  memusers : Memory (PSS) for IpRib (pid 2772): 24301 kB   2.3% of total PSS
-2026-03-03 12:37:02.617065  memusers : Memory (PSS) for CapiApp (pid 1953): 17150 kB   1.6% of total PSS
-2026-03-03 12:37:02.617082  memusers : Memory (PSS) for Launcher (pid 928): 20111 kB   1.9% of total PSS
+2026-03-04 11:47:23.150645  psi_mem : some avg10=0.00 avg60=0.00 avg300=0.26 total=1731085219
+2026-03-04 11:47:23.689367  memusers : Memory Total: 5748 MB, Free: 106 MB (  1.9%), Avail: 2135 MB )(   37%)
+2026-03-04 11:47:23.702145  memusers : Memory (PSS) for ConfigAgent (pid 943): 286835 kB    43% of total PSS
+2026-03-04 11:47:23.702256  memusers : Memory (PSS) for python3.9 (pid 814): 10333 kB   1.6% of total PSS
+2026-03-04 11:47:23.702316  memusers : Memory (PSS) for Fru (pid 942): 25059 kB   3.8% of total PSS
+2026-03-04 11:47:23.702435  memusers : Memory (PSS) for StageMgr (pid 945): 17997 kB   2.7% of total PSS
+2026-03-04 11:47:23.702512  memusers : Memory (PSS) for Launcher (pid 946): 36822 kB   5.6% of total PSS
+2026-03-04 11:47:23.702571  memusers : Memory (PSS) for Sysdb (pid 1518): 27918 kB   4.2% of total PSS
+2026-03-04 11:47:23.702626  memusers : Memory (PSS) for python3.9 (pid 922): 47178 kB   7.1% of total PSS
+2026-03-04 11:47:23.702684  memusers : Memory (PSS) for ProcLauncher-1 (pid 947): 18080 kB   2.7% of total PSS
+2026-03-04 11:47:23.702740  memusers : Memory (PSS) for Sysdb (pid 1160): 27345 kB   4.1% of total PSS
+2026-03-04 11:47:23.702797  memusers : Memory (PSS) for Sysdb (pid 944): 63117 kB   9.5% of total PSS
+2026-03-04 11:47:23.702854  memusers : Memory (PSS) for Sysdb (pid 1157): 30981 kB   4.7% of total PSS
+2026-03-04 11:48:15.161446  psi_mem : some avg10=1.71 avg60=1.49 avg300=0.68 total=1733001791
+2026-03-04 11:48:16.173221  memusers : Memory Total: 5748 MB, Free: 118 MB (  2.1%), Avail: 1785 MB )(   31%)
+2026-03-04 11:48:16.173481  memusers : Memory (PSS) for ConfigAgent (pid 943): 298043 kB    39% of total PSS
+2026-03-04 11:48:16.173582  memusers : Memory (PSS) for StageMgr (pid 945): 17610 kB   2.3% of total PSS
+2026-03-04 11:48:16.173699  memusers : Memory (PSS) for Fru (pid 942): 23824 kB   3.1% of total PSS
+2026-03-04 11:48:16.173791  memusers : Memory (PSS) for ProcLauncher-1 (pid 947): 17788 kB   2.3% of total PSS
+2026-03-04 11:48:16.173864  memusers : Memory (PSS) for Launcher (pid 946): 34608 kB   4.5% of total PSS
+2026-03-04 11:48:16.173945  memusers : Memory (PSS) for Sysdb (pid 1160): 26534 kB   3.4% of total PSS
+2026-03-04 11:48:16.174022  memusers : Memory (PSS) for Sysdb (pid 944): 57387 kB   7.4% of total PSS
+2026-03-04 11:48:16.174096  memusers : Memory (PSS) for Sysdb (pid 1723): 23608 kB   3.1% of total PSS
+2026-03-04 11:48:16.174335  memusers : Memory (PSS) for Sysdb (pid 1721): 25522 kB   3.3% of total PSS
+2026-03-04 11:48:16.174424  memusers : Memory (PSS) for python3.9 (pid 922): 121651 kB    16% of total PSS
+2026-03-04 11:48:16.174503  memusers : Memory (PSS) for Sysdb (pid 1157): 30979 kB     4% of total PSS
+2026-03-04 11:48:54.042425  psi_mem : some avg10=1.69 avg60=1.97 avg300=0.91 total=1733865090
+2026-03-04 11:48:57.608423  memusers : Memory Total: 5748 MB, Free: 122 MB (  2.1%), Avail: 1668 MB )(   29%)
+2026-03-04 11:48:57.608588  memusers : Memory (PSS) for python3.9 (pid 922): 195315 kB    27% of total PSS
+2026-03-04 11:48:57.608652  memusers : Memory (PSS) for python3.9 (pid 1808): 9710 kB   1.3% of total PSS
+2026-03-04 11:48:57.608867  memusers : Memory (PSS) for python3.9 (pid 1739): 9726 kB   1.3% of total PSS
+2026-03-04 11:48:57.608962  memusers : Memory (PSS) for python3.9 (pid 1861): 9719 kB   1.3% of total PSS
+2026-03-04 11:48:57.609029  memusers : Memory (PSS) for Fru (pid 942): 51215 kB     7% of total PSS
+2026-03-04 11:48:57.609091  memusers : Memory (PSS) for ProcLauncher-1 (pid 947): 31023 kB   4.2% of total PSS
+2026-03-04 11:48:57.609151  memusers : Memory (PSS) for Sysdb (pid 944): 70473 kB   9.7% of total PSS
+2026-03-04 11:48:57.609209  memusers : Memory (PSS) for python3.9 (pid 1913): 9724 kB   1.3% of total PSS
+2026-03-04 11:48:57.609266  memusers : Memory (PSS) for StageMgr (pid 945): 19365 kB   2.7% of total PSS
+2026-03-04 11:48:57.609322  memusers : Memory (PSS) for ConfigAgent (pid 943): 174989 kB    24% of total PSS
+2026-03-04 11:48:57.609379  memusers : Memory (PSS) for Launcher (pid 946): 37942 kB   5.2% of total PSS
+2026-03-04 11:49:34.074653  psi_mem : some avg10=2.55 avg60=2.63 avg300=1.24 total=1735527930
+2026-03-04 11:49:39.153660  memusers : Memory Total: 5748 MB, Free: 97 MB (  1.7%), Avail: 1282 MB )(   22%)
+2026-03-04 11:49:39.153779  memusers : Memory (PSS) for ConfigAgent (pid 943): 281096 kB    27% of total PSS
+2026-03-04 11:49:39.153832  memusers : Memory (PSS) for PhyEthtool-1 (pid 1938): 21462 kB     2% of total PSS
+2026-03-04 11:49:39.153885  memusers : Memory (PSS) for Aaa (pid 1935): 25511 kB   2.4% of total PSS
+2026-03-04 11:49:39.153933  memusers : Memory (PSS) for SuperServer (pid 1934): 23074 kB   2.2% of total PSS
+2026-03-04 11:49:39.154080  memusers : Memory (PSS) for Fru (pid 942): 49360 kB   4.7% of total PSS
+2026-03-04 11:49:39.154135  memusers : Memory (PSS) for Etba (pid 1932): 34392 kB   3.3% of total PSS
+2026-03-04 11:49:39.154182  memusers : Memory (PSS) for Sysdb (pid 944): 68870 kB   6.5% of total PSS
+2026-03-04 11:49:39.154229  memusers : Memory (PSS) for Acl (pid 1942): 24999 kB   2.4% of total PSS
+2026-03-04 11:49:39.154277  memusers : Memory (PSS) for ProcLauncher-1 (pid 947): 29252 kB   2.8% of total PSS
+2026-03-04 11:49:39.154323  memusers : Memory (PSS) for python3.9 (pid 922): 240557 kB    23% of total PSS
+2026-03-04 11:49:39.154373  memusers : Memory (PSS) for Launcher (pid 946): 36466 kB   3.5% of total PSS
+2026-03-04 11:50:09.150926  psi_mem : some avg10=7.27 avg60=6.21 avg300=2.37 total=1739652653
+2026-03-04 11:50:14.297755  memusers : Memory Total: 5748 MB, Free: 111 MB (  1.9%), Avail: 1135 MB )(   20%)
+2026-03-04 11:50:14.297830  memusers : Memory (PSS) for python3.9 (pid 922): 252402 kB    25% of total PSS
+2026-03-04 11:50:14.297886  memusers : Memory (PSS) for PhyEthtool-1 (pid 1938): 21239 kB   2.1% of total PSS
+2026-03-04 11:50:14.297938  memusers : Memory (PSS) for Aaa (pid 1935): 31989 kB   3.2% of total PSS
+2026-03-04 11:50:14.298147  memusers : Memory (PSS) for Acl (pid 1942): 24650 kB   2.5% of total PSS
+2026-03-04 11:50:14.298206  memusers : Memory (PSS) for Etba (pid 1932): 58941 kB   5.9% of total PSS
+2026-03-04 11:50:14.298253  memusers : Memory (PSS) for Fru (pid 942): 47558 kB   4.8% of total PSS
+2026-03-04 11:50:14.298298  memusers : Memory (PSS) for Sysdb (pid 944): 65547 kB   6.6% of total PSS
+2026-03-04 11:50:14.298345  memusers : Memory (PSS) for ProcLauncher-1 (pid 947): 28390 kB   2.8% of total PSS
+2026-03-04 11:50:14.298395  memusers : Memory (PSS) for Launcher (pid 946): 35688 kB   3.6% of total PSS
+2026-03-04 11:50:14.298448  memusers : Memory (PSS) for ConfigAgent (pid 943): 154779 kB    15% of total PSS
+2026-03-04 11:50:14.298500  memusers : Memory (PSS) for SuperServer (pid 1934): 50373 kB     5% of total PSS
+2026-03-04 11:50:39.458468  psi_mem : some avg10=12.32 avg60=7.75 avg300=3.10 total=1742725462
+2026-03-04 11:50:43.965479  memusers : Memory Total: 5748 MB, Free: 135 MB (  2.4%), Avail: 835 MB )(   15%)
+2026-03-04 11:50:43.965557  memusers : Memory (PSS) for ConfigAgent (pid 943): 268572 kB    23% of total PSS
+2026-03-04 11:50:43.965610  memusers : Memory (PSS) for PhyEthtool-1 (pid 1938): 20435 kB   1.8% of total PSS
+2026-03-04 11:50:43.965661  memusers : Memory (PSS) for Aaa (pid 1935): 31677 kB   2.7% of total PSS
+2026-03-04 11:50:43.965711  memusers : Memory (PSS) for Acl (pid 1942): 25444 kB   2.2% of total PSS
+2026-03-04 11:50:43.965761  memusers : Memory (PSS) for Sysdb (pid 944): 63515 kB   5.5% of total PSS
+2026-03-04 11:50:43.965810  memusers : Memory (PSS) for Fru (pid 942): 46847 kB     4% of total PSS
+2026-03-04 11:50:43.965858  memusers : Memory (PSS) for Etba (pid 1932): 75049 kB   6.5% of total PSS
+2026-03-04 11:50:43.965907  memusers : Memory (PSS) for ProcLauncher-1 (pid 947): 27587 kB   2.4% of total PSS
+2026-03-04 11:50:43.965955  memusers : Memory (PSS) for Launcher (pid 946): 35760 kB   3.1% of total PSS
+2026-03-04 11:50:43.966039  memusers : Memory (PSS) for python3.9 (pid 922): 251273 kB    22% of total PSS
+2026-03-04 11:50:43.966088  memusers : Memory (PSS) for SuperServer (pid 1934): 51716 kB   4.5% of total PSS
+2026-03-04 11:51:10.354854  psi_mem : full avg10=5.92 avg60=3.38 avg300=1.40 total=1215542393
+2026-03-04 11:51:41.163123  psi_mem : some avg10=78.14 avg60=37.69 avg300=11.69 total=1771932350
+2026-03-04 11:51:44.697824  memusers : Memory Total: 5748 MB, Free: 99 MB (  1.7%), Avail: 105 MB )(  1.8%)
+2026-03-04 11:51:44.716598  memusers : Memory (PSS) for ConfigAgent (pid 943): 242855 kB    20% of total PSS
+2026-03-04 11:51:44.716679  memusers : Memory (PSS) for IgmpSnooping (pid 2361): 19517 kB   1.6% of total PSS
+2026-03-04 11:51:44.716736  memusers : Memory (PSS) for Aaa (pid 1935): 29501 kB   2.4% of total PSS
+2026-03-04 11:51:44.716793  memusers : Memory (PSS) for OpenConfig (pid 2485): 19984 kB   1.6% of total PSS
+2026-03-04 11:51:44.716846  memusers : Memory (PSS) for SuperServer (pid 1934): 46838 kB   3.8% of total PSS
+2026-03-04 11:51:44.716900  memusers : Memory (PSS) for Etba (pid 1932): 41573 kB   3.4% of total PSS
+2026-03-04 11:51:44.716953  memusers : Memory (PSS) for Sysdb (pid 944): 55947 kB   4.5% of total PSS
+2026-03-04 11:51:44.717009  memusers : Memory (PSS) for ProcLauncher-1 (pid 947): 22801 kB   1.9% of total PSS
+2026-03-04 11:51:44.717056  memusers : Memory (PSS) for Launcher (pid 946): 33346 kB   2.7% of total PSS
+2026-03-04 11:51:44.717099  memusers : Memory (PSS) for python3.9 (pid 922): 225113 kB    18% of total PSS
+2026-03-04 11:51:44.717142  memusers : Memory (PSS) for Fru (pid 942): 42571 kB   3.5% of total PSS
+2026-03-04 11:52:15.135806  psi_mem : full avg10=66.57 avg60=31.41 avg300=9.12 total=1240895188
+2026-03-04 11:52:17.366806  memusers : Memory Total: 5748 MB, Free: 95 MB (  1.7%), Avail: 106 MB )(  1.8%)
+2026-03-04 11:52:17.367013  memusers : Memory (PSS) for ConfigAgent (pid 943): 243789 kB    19% of total PSS
+2026-03-04 11:52:17.367075  memusers : Memory (PSS) for IgmpSnooping (pid 2361): 19785 kB   1.6% of total PSS
+2026-03-04 11:52:17.367132  memusers : Memory (PSS) for Aaa (pid 1935): 29213 kB   2.3% of total PSS
+2026-03-04 11:52:17.367184  memusers : Memory (PSS) for OpenConfig (pid 2485): 19827 kB   1.6% of total PSS
+2026-03-04 11:52:17.367239  memusers : Memory (PSS) for SuperServer (pid 1934): 46815 kB   3.7% of total PSS
+2026-03-04 11:52:17.367289  memusers : Memory (PSS) for Etba (pid 1932): 42456 kB   3.4% of total PSS
+2026-03-04 11:52:17.367334  memusers : Memory (PSS) for Sysdb (pid 944): 56356 kB   4.5% of total PSS
+2026-03-04 11:52:17.367381  memusers : Memory (PSS) for ProcLauncher-1 (pid 947): 23100 kB   1.8% of total PSS
+2026-03-04 11:52:17.367427  memusers : Memory (PSS) for Launcher (pid 946): 33478 kB   2.7% of total PSS
+2026-03-04 11:52:17.367471  memusers : Memory (PSS) for python3.9 (pid 922): 225216 kB    18% of total PSS
+2026-03-04 11:52:17.367515  memusers : Memory (PSS) for Fru (pid 942): 42578 kB   3.4% of total PSS
+2026-03-04 11:52:24.801392  memusers : Memory Total: 5748 MB, Free: 102 MB (  1.8%), Avail: 101 MB )(  1.8%)
+2026-03-04 11:52:46.898180  psi_mem : full avg10=53.78 avg60=44.61 avg300=15.62 total=1265773065
+2026-03-04 11:52:53.783575  memusers : Memory Total: 5748 MB, Free: 107 MB (  1.9%), Avail: 135 MB )(  2.4%)
+2026-03-04 11:52:53.784008  memusers : Memory (PSS) for ConfigAgent (pid 943): 242911 kB    19% of total PSS
+2026-03-04 11:52:53.787340  memusers : Memory (PSS) for IgmpSnooping (pid 2361): 20904 kB   1.6% of total PSS
+2026-03-04 11:52:53.787471  memusers : Memory (PSS) for Aaa (pid 1935): 29180 kB   2.3% of total PSS
+2026-03-04 11:52:53.787527  memusers : Memory (PSS) for OpenConfig (pid 2485): 21302 kB   1.7% of total PSS
+2026-03-04 11:52:53.787578  memusers : Memory (PSS) for SuperServer (pid 1934): 48171 kB   3.8% of total PSS
+2026-03-04 11:52:53.787632  memusers : Memory (PSS) for Fru (pid 942): 42548 kB   3.4% of total PSS
+2026-03-04 11:52:53.787677  memusers : Memory (PSS) for Sysdb (pid 944): 55956 kB   4.4% of total PSS
+2026-03-04 11:52:53.787723  memusers : Memory (PSS) for ProcLauncher-1 (pid 947): 22832 kB   1.8% of total PSS
+2026-03-04 11:52:53.787768  memusers : Memory (PSS) for Launcher (pid 946): 33522 kB   2.6% of total PSS
+2026-03-04 11:52:53.787817  memusers : Memory (PSS) for python3.9 (pid 922): 225106 kB    18% of total PSS
+2026-03-04 11:52:53.787940  memusers : Memory (PSS) for Etba (pid 1932): 42916 kB   3.4% of total PSS
+2026-03-04 11:53:17.187792  psi_mem : some avg10=50.09 avg60=71.04 avg300=32.32 total=1855431272
+2026-03-04 11:53:26.415923  memusers : Memory Total: 5748 MB, Free: 136 MB (  2.4%), Avail: 464 MB )(  8.1%)
+2026-03-04 11:53:26.546291  memusers : Memory (PSS) for ConfigAgent (pid 943): 250473 kB    18% of total PSS
+2026-03-04 11:53:26.546384  memusers : Memory (PSS) for Dot1x (pid 2399): 26799 kB   1.9% of total PSS
+2026-03-04 11:53:26.546460  memusers : Memory (PSS) for OpenConfig (pid 2485): 32777 kB   2.3% of total PSS
+2026-03-04 11:53:26.546529  memusers : Memory (PSS) for IgmpSnooping (pid 2361): 28127 kB     2% of total PSS
+2026-03-04 11:53:26.546599  memusers : Memory (PSS) for SuperServer (pid 1934): 51859 kB   3.7% of total PSS
+2026-03-04 11:53:26.546670  memusers : Memory (PSS) for Fru (pid 942): 42523 kB     3% of total PSS
+2026-03-04 11:53:26.546738  memusers : Memory (PSS) for Sysdb (pid 944): 77982 kB   5.6% of total PSS
+2026-03-04 11:53:26.546805  memusers : Memory (PSS) for Aaa (pid 1935): 29599 kB   2.1% of total PSS
+2026-03-04 11:53:26.546877  memusers : Memory (PSS) for Launcher (pid 946): 33489 kB   2.4% of total PSS
+2026-03-04 11:53:26.546950  memusers : Memory (PSS) for python3.9 (pid 922): 225107 kB    16% of total PSS
+2026-03-04 11:53:26.547018  memusers : Memory (PSS) for Etba (pid 1932): 42857 kB   3.1% of total PSS
+2026-03-04 11:53:54.390166  psi_mem : full avg10=8.69 avg60=27.57 avg300=16.77 total=1279580637
+2026-03-04 11:53:56.528081  memusers : Memory Total: 5748 MB, Free: 102 MB (  1.8%), Avail: 174 MB )(    3%)
+2026-03-04 11:53:56.528194  memusers : Memory (PSS) for ConfigAgent (pid 943): 243204 kB    17% of total PSS
+2026-03-04 11:53:56.528247  memusers : Memory (PSS) for ProcLauncher-1 (pid 947): 22759 kB   1.6% of total PSS
+2026-03-04 11:53:56.528306  memusers : Memory (PSS) for Launcher (pid 946): 33353 kB   2.4% of total PSS
+2026-03-04 11:53:56.528365  memusers : Memory (PSS) for IgmpSnooping (pid 2361): 23177 kB   1.7% of total PSS
+2026-03-04 11:53:56.528421  memusers : Memory (PSS) for SuperServer (pid 1934): 48062 kB   3.4% of total PSS
+2026-03-04 11:53:56.528476  memusers : Memory (PSS) for Fru (pid 942): 42526 kB     3% of total PSS
+2026-03-04 11:53:56.528532  memusers : Memory (PSS) for Sysdb (pid 944): 60451 kB   4.3% of total PSS
+2026-03-04 11:53:56.528576  memusers : Memory (PSS) for Aaa (pid 1935): 29399 kB   2.1% of total PSS
+2026-03-04 11:53:56.528631  memusers : Memory (PSS) for OpenConfig (pid 2485): 35977 kB   2.6% of total PSS
+2026-03-04 11:53:56.528687  memusers : Memory (PSS) for python3.9 (pid 922): 225100 kB    16% of total PSS
+2026-03-04 11:53:56.528740  memusers : Memory (PSS) for Etba (pid 1932): 44057 kB   3.2% of total PSS
+2026-03-04 11:54:24.415473  psi_mem : some avg10=89.80 avg60=72.41 avg300=39.48 total=1900754289
+2026-03-04 11:55:08.445109  psi_mem : some avg10=95.31 avg60=83.58 avg300=47.08 total=1941878263
+2026-03-04 11:55:11.774647  memusers : Memory Total: 5748 MB, Free: 78 MB (  1.4%), Avail: 298 MB )(  5.2%)
+2026-03-04 11:55:11.776130  memusers : Memory (PSS) for ConfigAgent (pid 943): 212218 kB    18% of total PSS
+2026-03-04 11:55:11.776226  memusers : Memory (PSS) for CapiApp (pid 2484): 19097 kB   1.6% of total PSS
+2026-03-04 11:55:11.776295  memusers : Memory (PSS) for Fru (pid 942): 27739 kB   2.3% of total PSS
+2026-03-04 11:55:11.776363  memusers : Memory (PSS) for PhyEthtool-1 (pid 1938): 19170 kB   1.6% of total PSS
+2026-03-04 11:55:11.776430  memusers : Memory (PSS) for Sysdb (pid 944): 45559 kB   3.8% of total PSS
+2026-03-04 11:55:11.779446  memusers : Memory (PSS) for OpenConfig (pid 2485): 44222 kB   3.7% of total PSS
+2026-03-04 11:55:11.780032  memusers : Memory (PSS) for SuperServer (pid 1934): 48160 kB     4% of total PSS
+2026-03-04 11:55:11.780106  memusers : Memory (PSS) for IgmpSnooping (pid 2361): 22157 kB   1.9% of total PSS
+2026-03-04 11:55:11.780256  memusers : Memory (PSS) for Aaa (pid 1935): 29534 kB   2.5% of total PSS
+2026-03-04 11:55:11.780329  memusers : Memory (PSS) for python3.9 (pid 922): 160664 kB    13% of total PSS
+2026-03-04 11:55:11.780399  memusers : Memory (PSS) for Etba (pid 1932): 44309 kB   3.7% of total PSS
+2026-03-04 11:55:13.073876  memusers : Memory Total: 5748 MB, Free: 100 MB (  1.7%), Avail: 242 MB )(  4.2%)
+2026-03-04 11:55:13.076066  memusers : Memory (PSS) for ConfigAgent (pid 943): 213988 kB    18% of total PSS
+2026-03-04 11:55:13.076718  memusers : Memory (PSS) for CapiApp (pid 2484): 20522 kB   1.7% of total PSS
+2026-03-04 11:55:13.077439  memusers : Memory (PSS) for Fru (pid 942): 27736 kB   2.3% of total PSS
+2026-03-04 11:55:13.077650  memusers : Memory (PSS) for SystemInitMonitor (pid 2529): 20672 kB   1.7% of total PSS
+2026-03-04 11:55:13.078575  memusers : Memory (PSS) for SuperServer (pid 1934): 48004 kB     4% of total PSS
+2026-03-04 11:55:13.078635  memusers : Memory (PSS) for OpenConfig (pid 2485): 40044 kB   3.3% of total PSS
+2026-03-04 11:55:13.078686  memusers : Memory (PSS) for Sysdb (pid 944): 50965 kB   4.3% of total PSS
+2026-03-04 11:55:13.078736  memusers : Memory (PSS) for IgmpSnooping (pid 2361): 22155 kB   1.9% of total PSS
+2026-03-04 11:55:13.079178  memusers : Memory (PSS) for Aaa (pid 1935): 29466 kB   2.5% of total PSS
+2026-03-04 11:55:13.079280  memusers : Memory (PSS) for python3.9 (pid 922): 160664 kB    13% of total PSS
+2026-03-04 11:55:13.079335  memusers : Memory (PSS) for Etba (pid 1932): 44162 kB   3.7% of total PSS
+2026-03-04 11:55:39.285678  psi_mem : full avg10=36.94 avg60=45.44 avg300=26.82 total=1333108799
+2026-03-04 11:55:42.382675  memusers : Memory Total: 5748 MB, Free: 78 MB (  1.4%), Avail: 79 MB )(  1.4%)
+2026-03-04 11:55:43.859593  memusers : Memory (PSS) for ConfigAgent (pid 943): 211681 kB    18% of total PSS
+2026-03-04 11:55:43.906663  memusers : Memory (PSS) for CapiApp (pid 2484): 18946 kB   1.6% of total PSS
+2026-03-04 11:55:43.906821  memusers : Memory (PSS) for Fru (pid 942): 28077 kB   2.4% of total PSS
+2026-03-04 11:55:43.906880  memusers : Memory (PSS) for PhyEthtool-1 (pid 1938): 19072 kB   1.6% of total PSS
+2026-03-04 11:55:43.906934  memusers : Memory (PSS) for Sysdb (pid 944): 45658 kB   3.9% of total PSS
+2026-03-04 11:55:43.906986  memusers : Memory (PSS) for Etba (pid 1932): 41455 kB   3.5% of total PSS
+2026-03-04 11:55:43.907038  memusers : Memory (PSS) for SuperServer (pid 1934): 47833 kB   4.1% of total PSS
+2026-03-04 11:55:43.907091  memusers : Memory (PSS) for IgmpSnooping (pid 2361): 22005 kB   1.9% of total PSS
+2026-03-04 11:55:43.907159  memusers : Memory (PSS) for Aaa (pid 1935): 29314 kB   2.5% of total PSS
+2026-03-04 11:55:43.907211  memusers : Memory (PSS) for python3.9 (pid 922): 160675 kB    14% of total PSS
+2026-03-04 11:55:43.907257  memusers : Memory (PSS) for OpenConfig (pid 2485): 41992 kB   3.6% of total PSS
+2026-03-04 11:56:15.146717  psi_mem : full avg10=57.67 avg60=51.42 avg300=30.74 total=1356485765
+2026-03-04 11:56:22.004102  memusers : Memory Total: 5748 MB, Free: 82 MB (  1.4%), Avail: 99 MB )(  1.7%)
+2026-03-04 11:56:22.052883  memusers : Memory (PSS) for ConfigAgent (pid 943): 211284 kB    18% of total PSS
+2026-03-04 11:56:22.052974  memusers : Memory (PSS) for Launcher (pid 946): 18291 kB   1.6% of total PSS
+2026-03-04 11:56:22.053118  memusers : Memory (PSS) for Fru (pid 942): 28094 kB   2.4% of total PSS
+2026-03-04 11:56:22.053200  memusers : Memory (PSS) for PhyEthtool-1 (pid 1938): 18877 kB   1.6% of total PSS
+2026-03-04 11:56:22.053258  memusers : Memory (PSS) for Sysdb (pid 944): 45920 kB   3.9% of total PSS
+2026-03-04 11:56:22.053317  memusers : Memory (PSS) for Etba (pid 1932): 41381 kB   3.5% of total PSS
+2026-03-04 11:56:22.053377  memusers : Memory (PSS) for SuperServer (pid 1934): 47799 kB   4.1% of total PSS
+2026-03-04 11:56:22.053464  memusers : Memory (PSS) for IgmpSnooping (pid 2361): 22498 kB   1.9% of total PSS
+2026-03-04 11:56:22.053528  memusers : Memory (PSS) for Aaa (pid 1935): 29328 kB   2.5% of total PSS
+2026-03-04 11:56:22.053590  memusers : Memory (PSS) for python3.9 (pid 922): 160668 kB    14% of total PSS
+2026-03-04 11:56:22.053647  memusers : Memory (PSS) for OpenConfig (pid 2485): 41732 kB   3.5% of total PSS
+2026-03-04 11:56:46.187789  psi_mem : some avg10=92.17 avg60=88.79 avg300=58.63 total=2027324810
+2026-03-04 11:56:54.359650  memusers : Memory Total: 5748 MB, Free: 84 MB (  1.5%), Avail: 108 MB )(  1.9%)
+2026-03-04 11:56:54.390120  memusers : Memory (PSS) for ConfigAgent (pid 943): 211540 kB    18% of total PSS
+2026-03-04 11:56:54.390828  memusers : Memory (PSS) for PhyEthtool-1 (pid 1938): 19133 kB   1.6% of total PSS
+2026-03-04 11:56:54.390903  memusers : Memory (PSS) for Fru (pid 942): 28076 kB   2.4% of total PSS
+2026-03-04 11:56:54.390962  memusers : Memory (PSS) for SystemInitMonitor (pid 2529): 19441 kB   1.6% of total PSS
+2026-03-04 11:56:54.391015  memusers : Memory (PSS) for Sysdb (pid 944): 47055 kB   3.9% of total PSS
+2026-03-04 11:56:54.391067  memusers : Memory (PSS) for Etba (pid 1932): 41301 kB   3.5% of total PSS
+2026-03-04 11:56:54.391117  memusers : Memory (PSS) for SuperServer (pid 1934): 47834 kB     4% of total PSS
+2026-03-04 11:56:54.391170  memusers : Memory (PSS) for IgmpSnooping (pid 2361): 22002 kB   1.8% of total PSS
+2026-03-04 11:56:54.391223  memusers : Memory (PSS) for Aaa (pid 1935): 29290 kB   2.5% of total PSS
+2026-03-04 11:56:54.391277  memusers : Memory (PSS) for python3.9 (pid 922): 160670 kB    13% of total PSS
+2026-03-04 11:56:54.391323  memusers : Memory (PSS) for OpenConfig (pid 2485): 43371 kB   3.6% of total PSS
+2026-03-04 11:57:33.440861  psi_mem : some avg10=95.39 avg60=91.66 avg300=63.77 total=2071925296
+2026-03-04 11:57:35.512837  memusers : Memory Total: 5748 MB, Free: 79 MB (  1.4%), Avail: 78 MB )(  1.4%)
+2026-03-04 11:57:35.530314  memusers : Memory (PSS) for ConfigAgent (pid 943): 211799 kB    18% of total PSS
+2026-03-04 11:57:35.530486  memusers : Memory (PSS) for SystemInitMonitor (pid 2529): 18594 kB   1.6% of total PSS
+2026-03-04 11:57:35.530545  memusers : Memory (PSS) for Fru (pid 942): 28074 kB   2.4% of total PSS
+2026-03-04 11:57:35.530594  memusers : Memory (PSS) for PhyEthtool-1 (pid 1938): 19349 kB   1.7% of total PSS
+2026-03-04 11:57:35.530693  memusers : Memory (PSS) for Sysdb (pid 944): 45459 kB   3.9% of total PSS
+2026-03-04 11:57:35.530753  memusers : Memory (PSS) for OpenConfig (pid 2485): 42927 kB   3.7% of total PSS
+2026-03-04 11:57:35.530803  memusers : Memory (PSS) for SuperServer (pid 1934): 47790 kB   4.1% of total PSS
+2026-03-04 11:57:35.530852  memusers : Memory (PSS) for IgmpSnooping (pid 2361): 22038 kB   1.9% of total PSS
+2026-03-04 11:57:35.530901  memusers : Memory (PSS) for Aaa (pid 1935): 29290 kB   2.5% of total PSS
+2026-03-04 11:57:35.530947  memusers : Memory (PSS) for python3.9 (pid 922): 160669 kB    14% of total PSS
+2026-03-04 11:57:35.530998  memusers : Memory (PSS) for Etba (pid 1932): 43038 kB   3.7% of total PSS
+2026-03-04 11:58:25.590369  psi_mem : full avg10=62.85 avg60=59.72 avg300=40.24 total=1424497360
+2026-03-04 11:58:30.444058  memusers : Memory Total: 5748 MB, Free: 78 MB (  1.4%), Avail: 71 MB )(  1.2%)
+2026-03-04 11:58:30.457007  memusers : Memory (PSS) for ConfigAgent (pid 943): 211320 kB    18% of total PSS
+2026-03-04 11:58:30.457151  memusers : Memory (PSS) for CapiApp (pid 2484): 18306 kB   1.6% of total PSS
+2026-03-04 11:58:30.457219  memusers : Memory (PSS) for Fru (pid 942): 28071 kB   2.4% of total PSS
+2026-03-04 11:58:30.457277  memusers : Memory (PSS) for PhyEthtool-1 (pid 1938): 19160 kB   1.6% of total PSS
+2026-03-04 11:58:30.457336  memusers : Memory (PSS) for Sysdb (pid 944): 45376 kB   3.9% of total PSS
+2026-03-04 11:58:30.457393  memusers : Memory (PSS) for Etba (pid 1932): 41908 kB   3.6% of total PSS
+2026-03-04 11:58:30.457454  memusers : Memory (PSS) for SuperServer (pid 1934): 47900 kB   4.1% of total PSS
+2026-03-04 11:58:30.457513  memusers : Memory (PSS) for IgmpSnooping (pid 2361): 21964 kB   1.9% of total PSS
+2026-03-04 11:58:30.457574  memusers : Memory (PSS) for Aaa (pid 1935): 29280 kB   2.5% of total PSS
+2026-03-04 11:58:30.457639  memusers : Memory (PSS) for python3.9 (pid 922): 160672 kB    14% of total PSS
+2026-03-04 11:58:30.457699  memusers : Memory (PSS) for OpenConfig (pid 2485): 42120 kB   3.6% of total PSS
